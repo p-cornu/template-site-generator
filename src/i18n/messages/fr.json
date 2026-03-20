@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "title": "Maison Flour — Café & Pâtisserie Artisanale | Paris 9e",
+    "description": "Café artisanal au cœur du 9e arrondissement de Paris. Pâtisseries fraîches du matin, cafés d'exception et brunch du week-end dans une atmosphère cosy.",
+    "ogTitle": "Maison Flour — Café Artisanal Paris",
+    "ogDescription": "Café artisanal, pâtisseries maison et brunch à Paris."
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "Notre Café",
+    "menu": "La Carte",
+    "contact": "Contact",
+    "viewMenu": "Voir la carte",
+    "switchLang": "EN"
+  },
+  "hero": {
+    "badge": "Ouvert depuis 2018",
+    "titleLine1": "L'art du café,",
+    "titleLine2": "fait maison.",
+    "subtitle": "Un café artisanal où chaque tasse est une invitation à ralentir. Pâtisseries fraîches du jour, sourires inclus.",
+    "ctaPrimary": "Voir la carte",
+    "ctaSecondary": "Notre histoire",
+    "scrollHint": "Défiler"
+  },
+  "about": {
+    "badge": "Notre histoire",
+    "title": "Né d'une passion pour l'authentique",
+    "paragraph1": "Maison Flour est née en 2018 de la passion de Léa et Thomas pour les bons produits. Nichés dans le 9e arrondissement de Paris, nous avons créé un refuge chaleureux où le temps ralentit et où chaque détail compte.",
+    "paragraph2": "Chaque matin, nos artisans façonnent des pâtisseries fraîches avec des produits sourcés localement. Notre café est sélectionné auprès de petits torréfacteurs indépendants qui partagent notre philosophie.",
+    "value1Label": "Artisanal",
+    "value1Desc": "Tout préparé chaque matin",
+    "value2Label": "Local",
+    "value2Desc": "Producteurs à moins de 100 km",
+    "value3Label": "Chaleureux",
+    "value3Desc": "Un espace qui ressemble à une maison",
+    "imageAlt": "Léa et Thomas, fondateurs de Maison Flour"
+  },
+  "menuPreview": {
+    "badge": "Nos spécialités",
+    "title": "Ce qui sort du four ce matin",
+    "subtitle": "Une sélection de nos pièces du jour, faites avec amour et des ingrédients choisis.",
+    "cta": "Voir toute la carte",
+    "cappuccino": {
+      "name": "Cappuccino Maison",
+      "desc": "Expresso intense, mousse de lait soyeuse, cacao de saison"
+    },
+    "kouignAmann": {
+      "name": "Kouign-amann",
+      "desc": "Beurre breton, caramel fondant, feuilletage croustillant"
+    },
+    "brunchFlour": {
+      "name": "Brunch Flour",
+      "desc": "Œufs brouillés, toast, fruits de saison, boisson au choix"
+    }
+  },
+  "gallery": {
+    "badge": "L'atmosphère",
+    "title": "Bienvenue chez nous",
+    "subtitle": "Un espace pensé pour le plaisir des sens — lumière dorée, bois chaud, arômes de café.",
+    "prev": "Image précédente",
+    "next": "Image suivante"
+  },
+  "testimonials": {
+    "badge": "Ils nous font confiance",
+    "title": "Ce qu'ils disent de nous",
+    "t1": "Le meilleur café du 9e, sans hésiter. L'atmosphère est magique le matin, on ne veut plus partir.",
+    "t2": "Les croissants sont une institution. Et le service est toujours souriant — une vraie bouffée de bonheur.",
+    "t3": "Notre spot brunch du dimanche depuis 3 ans. On ne change pas une équipe qui gagne !",
+    "starsLabel": "5 étoiles sur 5"
+  },
+  "contact": {
+    "badge": "Nous trouver",
+    "title": "Venez nous rendre visite",
+    "addressLabel": "Adresse",
+    "hoursLabel": "Horaires",
+    "phoneLabel": "Téléphone",
+    "emailLabel": "Email",
+    "mapAlt": "Plan d'accès Maison Flour, 12 rue des Martyrs Paris 9e",
+    "mapPlaceholder": "Voir sur Google Maps"
+  },
+  "footer": {
+    "tagline": "Café artisanal · Paris 9e",
+    "nav": "Navigation",
+    "followUs": "Nous suivre",
+    "copyright": "© 2024 Maison Flour. Tous droits réservés.",
+    "instagram": "Instagram",
+    "facebook": "Facebook"
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "subtitle": "Cette page semble s'être perdue entre deux tables…",
+    "cta": "Retour à l'accueil"
+  },
+  "carte": {
+    "meta": {
+      "title": "La Carte — Maison Flour | Café & Pâtisserie Paris 9e",
+      "description": "Découvrez toute notre carte : cafés, thés, pâtisseries maison et brunch du week-end."
+    },
+    "badge": "La Carte",
+    "title": "Tout est fait maison",
+    "subtitle": "Préparé chaque matin avec amour, des ingrédients locaux et beaucoup de beurre.",
+    "hot": "Boissons Chaudes",
+    "cold": "Boissons Froides",
+    "pastry": "Pâtisseries",
+    "brunch": "Brunch",
+    "brunchNote": "Servi le week-end de 10h à 14h",
+    "espresso": { "name": "Café Expresso", "desc": "Un shot intense, la base de tout" },
+    "allonge": { "name": "Café Allongé", "desc": "Expresso allongé à l'eau chaude" },
+    "cappuccino": { "name": "Cappuccino Maison", "desc": "Expresso, mousse de lait soyeuse, cacao" },
+    "latte": { "name": "Café Latte", "desc": "Expresso doux noyé dans le lait chaud" },
+    "flatWhite": { "name": "Flat White", "desc": "Double ristretto, micro-mousse veloutée" },
+    "matchaLatte": { "name": "Matcha Latte", "desc": "Matcha cérémonial, lait d'avoine chaud" },
+    "chaiLatte": { "name": "Chai Latte", "desc": "Mélange d'épices indiennes, lait chaud" },
+    "chocolatChaud": { "name": "Chocolat Chaud", "desc": "Chocolat noir 70%, lait entier, crème" },
+    "the": { "name": "Thé du Monde", "desc": "Sélection de thés d'origine, infusion 4 min" },
+    "coldBrew": { "name": "Cold Brew", "desc": "Infusion à froid 24h, doux et sans amertume" },
+    "icedLatte": { "name": "Iced Latte", "desc": "Latte glacé sur glaçons, léger et frais" },
+    "smoothie": { "name": "Smoothie du Marché", "desc": "Fruits frais de saison, sans sucre ajouté" },
+    "limonade": { "name": "Limonade Maison", "desc": "Citrons pressés, menthe fraîche, pétillant" },
+    "eau": { "name": "Eau", "desc": "Gazeuse ou plate, carafe à disposition" },
+    "croissant": { "name": "Croissant Pur Beurre", "desc": "Feuilletage AOC, beurre de Charentes" },
+    "painChocolat": { "name": "Pain au Chocolat", "desc": "Deux barres Valrhona, feuilletage maison" },
+    "kouignAmann": { "name": "Kouign-amann", "desc": "Beurre breton, caramel, feuilletage croustillant" },
+    "financier": { "name": "Financier Amandes", "desc": "Beurre noisette, amandes, texture moelleuse" },
+    "madeleine": { "name": "Madeleine Maison", "desc": "Citron zeste, miel de fleurs, bosse parfaite" },
+    "tarteJour": { "name": "Tarte du Jour", "desc": "Selon la saison et l'humeur du chef" },
+    "carrotCake": { "name": "Carrot Cake", "desc": "Carottes râpées, épices, glaçage cream cheese" },
+    "bananaBread": { "name": "Banana Bread", "desc": "Bananes mûres, noix de pécan, sans lactose" },
+    "cookie": { "name": "Cookie Chocolat Noir", "desc": "Chocolat 70%, beurre noisette, sel de Guérande" },
+    "scone": { "name": "Scone Myrtilles", "desc": "Myrtilles fraîches, zeste citron, clotted cream" },
+    "brunchFlour": { "name": "Brunch Flour", "desc": "Œufs brouillés, toast, salade de fruits, boisson" },
+    "avocadoToast": { "name": "Avocado Toast", "desc": "Pain de campagne, avocat, œuf poché, graines" },
+    "bowl": { "name": "Bowl du Marché", "desc": "Céréales, fruits frais, granola maison, lait d'avoine" },
+    "pancakes": { "name": "Pancakes Maison", "desc": "Pâte légère, sirop d'érable, fruits rouges" },
+    "toastBeurre": { "name": "Toast Beurre & Confiture", "desc": "Pain maison grillé, confitures artisanales" },
+    "assietteFruits": { "name": "Assiette de Fruits", "desc": "Sélection de fruits frais de saison" }
+  }
+}
