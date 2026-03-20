@@ -12,9 +12,9 @@ export default function Testimonials() {
     <section className="section-py bg-[var(--color-background)]">
       <Container>
         {/* Header */}
-        <div className="text-center mb-14">
+        <div className="text-center mb-20">
           <FadeIn>
-            <span className="inline-block text-xs font-body font-semibold tracking-[0.25em] uppercase text-[var(--color-gold-500)] mb-4">
+            <span className="inline-block text-xs font-body font-semibold tracking-[0.25em] uppercase text-[var(--color-gold-500)] mb-5">
               {t('badge')}
             </span>
             <h2 className="font-display font-semibold text-4xl sm:text-5xl text-[var(--color-foreground)]">
@@ -24,7 +24,7 @@ export default function Testimonials() {
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((item, i) => {
             const textKey = item.id;
             return (

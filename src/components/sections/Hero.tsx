@@ -59,7 +59,7 @@ export default function Hero() {
           {/* Title */}
           <motion.h1
             variants={stagger.item}
-            className="font-display font-semibold text-5xl sm:text-6xl lg:text-7xl leading-[1.1] text-white mb-6"
+            className="font-display font-semibold text-5xl sm:text-6xl lg:text-7xl leading-[1.15] text-white mb-8"
           >
             {t('titleLine1')}
             <br />
@@ -69,7 +69,7 @@ export default function Hero() {
           {/* Subtitle */}
           <motion.p
             variants={stagger.item}
-            className="text-white/80 text-lg sm:text-xl font-body font-light leading-relaxed max-w-lg mb-10"
+            className="text-white/80 text-lg sm:text-xl font-body font-light leading-loose max-w-lg mb-12"
           >
             {t('subtitle')}
           </motion.p>

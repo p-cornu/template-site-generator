@@ -14,13 +14,13 @@ const FEATURED = [
     descKey: 'cappuccino.desc',
   },
   {
-    imgSrc: 'https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=700&q=80',
+    imgSrc: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=700&q=80',
     price: '3,80 €',
     nameKey: 'kouignAmann.name',
     descKey: 'kouignAmann.desc',
   },
   {
-    imgSrc: 'https://images.unsplash.com/photo-1484723091739-30990e1a6e06?w=700&q=80',
+    imgSrc: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=700&q=80',
     price: '18,50 €',
     nameKey: 'brunchFlour.name',
     descKey: 'brunchFlour.desc',
@@ -34,22 +34,22 @@ export default function MenuPreview() {
     <section id="menu" className="section-py bg-[var(--color-surface)]">
       <Container>
         {/* Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-20">
           <FadeIn>
-            <span className="inline-block text-xs font-body font-semibold tracking-[0.25em] uppercase text-[var(--color-gold-500)] mb-4">
+            <span className="inline-block text-xs font-body font-semibold tracking-[0.25em] uppercase text-[var(--color-gold-500)] mb-5">
               {t('badge')}
             </span>
-            <h2 className="font-display font-semibold text-4xl sm:text-5xl text-[var(--color-foreground)] mb-4">
+            <h2 className="font-display font-semibold text-4xl sm:text-5xl text-[var(--color-foreground)] mb-6">
               {t('title')}
             </h2>
-            <p className="text-[var(--color-muted)] max-w-xl mx-auto text-base leading-relaxed">
+            <p className="text-[var(--color-muted)] max-w-xl mx-auto text-base leading-loose">
               {t('subtitle')}
             </p>
           </FadeIn>
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {FEATURED.map((item, i) => {
             const name = t(item.nameKey as Parameters<typeof t>[0]);
             const desc = t(item.descKey as Parameters<typeof t>[0]);

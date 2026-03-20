@@ -12,9 +12,9 @@ export default function Contact() {
     <section id="contact" className="section-py bg-[var(--color-surface)]">
       <Container>
         {/* Header */}
-        <div className="text-center mb-14">
+        <div className="text-center mb-20">
           <FadeIn>
-            <span className="inline-block text-xs font-body font-semibold tracking-[0.25em] uppercase text-[var(--color-gold-500)] mb-4">
+            <span className="inline-block text-xs font-body font-semibold tracking-[0.25em] uppercase text-[var(--color-gold-500)] mb-5">
               {t('badge')}
             </span>
             <h2 className="font-display font-semibold text-4xl sm:text-5xl text-[var(--color-foreground)]">
@@ -25,7 +25,7 @@ export default function Contact() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-20 items-start">
           {/* Info */}
-          <div className="space-y-8">
+          <div className="space-y-10">
             {/* Address */}
             <SlideUp>
               <div className="flex gap-4">

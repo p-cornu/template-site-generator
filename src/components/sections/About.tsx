@@ -47,12 +47,12 @@ export default function About() {
           </FadeIn>
 
           {/* Text side */}
-          <div className="order-1 lg:order-2 space-y-8">
+          <div className="order-1 lg:order-2 space-y-10">
             <SlideUp>
-              <span className="inline-block text-xs font-body font-semibold tracking-[0.25em] uppercase text-[var(--color-gold-500)] mb-4">
+              <span className="inline-block text-xs font-body font-semibold tracking-[0.25em] uppercase text-[var(--color-gold-500)] mb-5">
                 {t('badge')}
               </span>
-              <h2 className="font-display font-semibold text-4xl sm:text-5xl leading-[1.15] text-[var(--color-foreground)]">
+              <h2 className="font-display font-semibold text-4xl sm:text-5xl leading-[1.2] text-[var(--color-foreground)]">
                 {t('title')}
               </h2>
             </SlideUp>
