@@ -1,8 +1,7 @@
 # ARCHITECTURE — Repos Démos Forge Digitale
 
-> **Ce fichier est à déposer à la racine de chaque nouveau repo démo.**
-> Il explique à Claude Code le contexte, la structure attendue et les standards à respecter.
-> Complète la section "Contexte de ce démo" avant de démarrer.
+> **Ce fichier est lu automatiquement par Claude Code à chaque session.**
+> Il explique le contexte, la structure, les standards et ce qui est déjà en place.
 
 ---
 
@@ -20,10 +19,12 @@ Chaque démo :
 - A un **dark mode** fonctionnel
 - Est **mobile-first** et **performant** (Lighthouse > 90)
 - Sera **linké depuis le portfolio** principal
+- Est **purement visuel** — pas de backend, pas d'API, pas de paiement, pas de réservation réelle
+- Le but est d'**impressionner visuellement** et de montrer nos capacités techniques
 
 ---
 
-## CONTEXTE DE CE DÉMO *(à remplir)*
+## CONTEXTE DE CE DÉMO *(à remplir par Claude Code ou manuellement)*
 
 ```
 Nom du business fictif   : ___________________
@@ -38,9 +39,103 @@ URL Vercel cible         : demo-_______________.vercel.app
 
 ---
 
+## CE QUI EST DÉJÀ EN PLACE (briques génériques)
+
+Les fichiers suivants sont **déjà copiés** depuis `demo-restaurant-la-table-doree` et sont **identiques dans chaque repo**. Ne pas les recréer, ne pas les modifier (sauf package.json pour le nom) :
+
+### Infrastructure (ne pas toucher)
+```
+.gitignore
+postcss.config.mjs
+eslint.config.mjs
+tsconfig.json
+next.config.ts                        ← plugin next-intl + config images Unsplash
+src/proxy.ts                          ← middleware i18n (FR/EN routing)
+src/app/layout.tsx                    ← root layout (retourne juste children, PAS de html/body)
+package.json                          ← dépendances identiques, nom du repo adapté
+```
+
+### i18n (ne pas toucher)
+```
+src/i18n/routing.ts                   ← defineRouting(['fr','en'])
+src/i18n/request.ts                   ← getRequestConfig
+src/i18n/navigation.ts                ← Link, useRouter, usePathname localisés
+```
+
+### Utilitaires (ne pas toucher)
+```
+src/lib/utils.ts                      ← cn() — clsx + tailwind-merge
+src/lib/getT.ts                       ← traducteur serveur sans plugin
+```
+
+### Composants réutilisables (ne pas toucher)
+```
+src/components/animations/FadeIn.tsx  ← wrapper scroll-triggered fade
+src/components/animations/SlideUp.tsx ← wrapper scroll-triggered slide
+src/components/layout/ThemeToggle.tsx  ← bouton dark/light mode
+src/components/ui/Container.tsx       ← wrapper max-width
+src/components/ui/Button.tsx          ← bouton réutilisable
+```
+
+### ⚠️ npm install requis
+Les briques sont copiées mais **node_modules n'est pas installé**. Première chose à faire :
+```bash
+npm install
+```
+
+---
+
+## CE QUI DOIT ÊTRE CRÉÉ FROM SCRATCH (100% unique par démo)
+
+Chaque démo doit avoir un **design totalement différent**. Pas de copier-coller de composants visuels entre démos. Les visiteurs doivent voir une **palette de sites variés**, pas des templates qui se ressemblent.
+
+### Fichiers à créer obligatoirement :
+```
+src/app/globals.css                   ← palette de couleurs 100% DIFFÉRENTE
+src/app/[locale]/layout.tsx           ← fonts DIFFÉRENTES (next/font), metadata unique
+src/app/[locale]/page.tsx             ← page principale avec sections assemblées
+src/app/[locale]/not-found.tsx        ← page 404 custom
+src/app/[locale]/[pages-métier]/      ← pages spécifiques au métier
+src/app/sitemap.ts                    ← URL du site adaptée
+src/components/layout/Header.tsx      ← navigation DIFFÉRENTE (style, structure, animations)
+src/components/layout/Footer.tsx      ← footer adapté au métier
+src/components/sections/*             ← TOUTES les sections from scratch
+src/content/[nom-du-demo].ts          ← données du site (menu, galerie, tarifs…)
+src/i18n/messages/fr.json             ← tout le contenu FR
+src/i18n/messages/en.json             ← tout le contenu EN (toujours en sync avec fr.json)
+src/lib/types.ts                      ← types TypeScript spécifiques au projet
+public/robots.txt
+public/favicon.ico
+```
+
+### Ce qui DOIT être différent entre chaque démo :
+
+| Élément | Doit varier |
+|---------|-------------|
+| Palette de couleurs | 100% différente (4 couleurs max) |
+| Fonts | 2 fonts différentes par démo (display + body) |
+| Hero section | Animation d'entrée unique |
+| Navigation | Style et structure différents |
+| Sections | Spécifiques au métier |
+| Images | Unsplash haute qualité, thématiques au métier |
+| Ambiance | Vibe totalement distinct |
+
+### Exemples de différenciation attendue :
+
+| Démo | Palette | Fonts | Ambiance |
+|------|---------|-------|----------|
+| La Table Dorée (restaurant) | Or + charcoal | Cormorant + DM Sans | Gastronomie parisienne, luxe |
+| Maison Flour (café) | Terre cuite + crème | Playfair + Nunito | Cosy, artisanal, chaleureux |
+| Studio Mika (photographe) | Noir/blanc pur | Bebas + Inter | Minimaliste, dramatique |
+| Atelier Bloom (fleuriste) | Rose poudré + vert | Jost + Lato | Délicat, printanier |
+| NexaCore (PME) | Bleu corporate + gris | Space Grotesk + DM Sans | Pro, fiable, moderne |
+| PulseTrack (SaaS) | Violet + néon | Sora + Inter | Tech, futuriste, glassmorphism |
+
+---
+
 ## STACK TECHNIQUE
 
-### Core (identique au portfolio principal)
+### Core (identique partout)
 ```
 Framework     : Next.js 16+ (App Router, TypeScript strict)
 Styling       : Tailwind CSS v4
@@ -52,60 +147,64 @@ Utilitaires   : clsx + tailwind-merge via cn()
 Déploiement   : Vercel (auto-deploy sur push main)
 ```
 
-### Librairies additionnelles selon le type de démo
+### Librairies additionnelles (ajouter SEULEMENT si valeur visuelle justifiée)
 ```
-Restaurant / Café     : embla-carousel (galerie food), react-day-picker (réservation)
-Photographe           : masonry-css ou react-masonry-css (galerie)
-E-commerce / Commerce : @stripe/stripe-js (si paiement démo), react-hook-form
-SaaS / PME            : recharts ou chart.js (dashboard/stats démo)
-Animations avancées   : GSAP (scroll-triggered premium), lottie-react (micro-animations)
-3D / WebGL            : @react-three/fiber + drei (si effet wow justifié)
+Restaurant / Café     : embla-carousel (galerie food)
+Photographe           : react-masonry-css (galerie masonry)
+SaaS / PME            : recharts (dashboard/stats démo)
+Animations avancées   : GSAP (scroll-triggered premium), lottie-react
 Parallax              : react-scroll-parallax
 Video background      : react-player
 ```
 
-**Règle** : n'ajouter une librairie que si elle apporte une vraie valeur visuelle pour ce type de client. Pas d'over-engineering.
+**Règle** : n'ajouter une librairie que si elle apporte une vraie valeur visuelle. Pas d'over-engineering. Pas de fonctionnalités backend.
 
 ---
 
-## STRUCTURE DES DOSSIERS
+## STRUCTURE DES DOSSIERS ATTENDUE
 
 ```
 src/
 ├── app/
-│   ├── layout.tsx                  ← Root layout — retourne juste children (PAS de html/body)
-│   ├── globals.css                 ← Tailwind directives + variables CSS custom
+│   ├── layout.tsx                  ← ✅ DÉJÀ EN PLACE (root, juste children)
+│   ├── globals.css                 ← ❌ À CRÉER (palette unique)
+│   ├── sitemap.ts                  ← ❌ À CRÉER
 │   └── [locale]/
-│       ├── layout.tsx              ← html + body + ThemeProvider + Header + Footer
-│       ├── page.tsx                ← Page principale (toutes les sections assemblées)
-│       ├── [autres-pages]/         ← Menu, Galerie, Réservation, etc.
-│       └── not-found.tsx           ← Page 404 custom
+│       ├── layout.tsx              ← ❌ À CRÉER (html + body + fonts + ThemeProvider)
+│       ├── page.tsx                ← ❌ À CRÉER
+│       ├── [pages-métier]/         ← ❌ À CRÉER
+│       └── not-found.tsx           ← ❌ À CRÉER
 │
 ├── components/
 │   ├── layout/
-│   │   ├── Header.tsx              ← Navigation responsive + switch langue + dark mode
-│   │   ├── Footer.tsx              ← Footer avec liens légaux
-│   │   └── ThemeToggle.tsx         ← Bouton dark/light
-│   ├── ui/                         ← Composants réutilisables (Button, Card, Container, Badge…)
-│   ├── sections/                   ← Sections de la page (Hero, About, Menu, Gallery, Contact…)
+│   │   ├── ThemeToggle.tsx         ← ✅ DÉJÀ EN PLACE
+│   │   ├── Header.tsx              ← ❌ À CRÉER (unique)
+│   │   └── Footer.tsx              ← ❌ À CRÉER (unique)
+│   ├── ui/
+│   │   ├── Container.tsx           ← ✅ DÉJÀ EN PLACE
+│   │   ├── Button.tsx              ← ✅ DÉJÀ EN PLACE
+│   │   └── [autres ui]/            ← ❌ À CRÉER si besoin
+│   ├── sections/                   ← ❌ TOUT À CRÉER (Hero, About, etc.)
 │   └── animations/
-│       ├── FadeIn.tsx              ← Wrapper scroll-triggered fade
-│       └── SlideUp.tsx             ← Wrapper scroll-triggered slide
+│       ├── FadeIn.tsx              ← ✅ DÉJÀ EN PLACE
+│       └── SlideUp.tsx             ← ✅ DÉJÀ EN PLACE
 │
 ├── lib/
-│   ├── utils.ts                    ← cn() — clsx + tailwind-merge
-│   ├── types.ts                    ← Types TypeScript du projet
-│   └── constants.ts                ← Config, couleurs, données statiques
+│   ├── utils.ts                    ← ✅ DÉJÀ EN PLACE
+│   ├── getT.ts                     ← ✅ DÉJÀ EN PLACE
+│   ├── types.ts                    ← ❌ À CRÉER
+│   └── constants.ts                ← ❌ À CRÉER si besoin
 │
-├── content/                        ← Données du site (menu, galerie, équipe, tarifs…)
+├── content/                        ← ❌ TOUT À CRÉER
 │   └── [nom-du-demo].ts
 │
 └── i18n/
-    ├── routing.ts
-    ├── request.ts
+    ├── routing.ts                  ← ✅ DÉJÀ EN PLACE
+    ├── request.ts                  ← ✅ DÉJÀ EN PLACE
+    ├── navigation.ts               ← ✅ DÉJÀ EN PLACE
     └── messages/
-        ├── fr.json                 ← Toutes les traductions FR
-        └── en.json                 ← Toutes les traductions EN (toujours en sync avec fr.json)
+        ├── fr.json                 ← ❌ À CRÉER
+        └── en.json                 ← ❌ À CRÉER
 ```
 
 ---
@@ -119,6 +218,8 @@ src/
 5. **Pas de `console.log`** en production
 6. **Images** : utiliser `next/image` avec `width`, `height` et `alt` descriptif — jamais de `<img>`
 7. **Couleurs** : définies comme variables CSS dans `globals.css`, référencées via Tailwind — pas de valeurs hardcodées
+8. **Pas de backend** : tout est statique/visuel, pas d'API, pas de paiement, pas de réservation réelle
+9. **Design unique** : chaque démo doit être visuellement différent des autres — pas de template commun
 
 ---
 
@@ -130,34 +231,32 @@ src/
 - **Maximum 2 polices** : une display + une corps de texte (via `next/font`)
 - **Palette max 4 couleurs** : primaire, secondaire, neutre, accent
 - **Animations subtiles** : elles doivent servir le contenu, pas le parasiter
-- **`prefers-reduced-motion`** : toujours respecter — désactiver les animations si demandé
+- **`prefers-reduced-motion`** : toujours respecter
+- **Les images comptent énormément** : Unsplash haute qualité, thématiques au métier
 
-### Ce qui est attendu sur chaque démo
-
+### Attendu sur chaque démo
 ```
-✅ Hero section avec animation d'entrée forte
+✅ Hero section avec animation d'entrée forte et unique
 ✅ Scroll-triggered animations (FadeIn / SlideUp)
 ✅ Hover states soignés sur tous les éléments interactifs
-✅ Transitions de couleur fluides (transition-colors, transition-all)
+✅ Transitions de couleur fluides
 ✅ Responsive parfait : 375px → 768px → 1024px → 1440px → 1920px
 ✅ Dark mode visuel cohérent sur toutes les sections
-✅ Loading states sur les actions asynchrones
-✅ Images optimisées WebP + lazy loading natif Next.js
+✅ Images optimisées + lazy loading natif Next.js
+✅ Fluidité générale des transitions et animations
 ```
 
-### Ce qui peut être poussé selon le type
-
+### Bonus selon le type de démo
 ```
-🚀 Parallax subtil sur le hero (react-scroll-parallax)
-🚀 Galerie avec lightbox (yet-another-react-lightbox)
-🚀 Curseur personnalisé (sur les démos créatives : photo, SaaS)
-🚀 Transitions de page (Framer Motion AnimatePresence)
-🚀 Effet de texte animé (Framer Motion variants stagger)
-🚀 Background video ou gradient animé sur le hero
-🚀 Glassmorphism / noise texture (démos SaaS / startup)
-🚀 Grille masonry pour les galeries photo
-🚀 Menu de navigation avec mega-menu ou sidebar mobile stylée
-🚀 Micro-animations sur les boutons (scale, glow, ripple)
+🚀 Parallax subtil sur le hero
+🚀 Galerie avec lightbox
+🚀 Curseur personnalisé (démos créatives)
+🚀 Transitions de page (AnimatePresence)
+🚀 Texte animé (stagger variants)
+🚀 Background video ou gradient animé
+🚀 Glassmorphism / noise texture (SaaS)
+🚀 Grille masonry (galeries photo)
+🚀 Micro-animations boutons (scale, glow, ripple)
 ```
 
 ---
@@ -182,10 +281,9 @@ export async function generateMetadata({ params }) {
 ```
 
 Fichiers à créer :
-- `public/robots.txt` — autoriser tout, bloquer `/_next/` et `/api/`
-- `src/app/sitemap.ts` — générer toutes les routes FR + EN
+- `public/robots.txt`
+- `src/app/sitemap.ts`
 - `public/favicon.ico` + `public/icon.png` (512×512)
-- `public/og-image.jpg` (1200×630px)
 
 ---
 
@@ -202,18 +300,17 @@ Fichiers à créer :
 - [ ] Responsive testé à 375px, 768px, 1280px
 - [ ] Dark mode cohérent sur toutes les pages
 - [ ] Animations fonctionnelles et non-saccadées
-- [ ] Favicon affiché (pas le favicon Next.js par défaut)
+- [ ] Design visuellement DIFFÉRENT des autres démos
 - [ ] Page 404 custom
 
 ### SEO
 - [ ] `generateMetadata` sur chaque page
 - [ ] `sitemap.xml` généré et accessible
 - [ ] `robots.txt` présent
-- [ ] OG image définie (pour les partages réseaux sociaux)
 
 ### Contenu
-- [ ] Aucun texte placeholder ("Lorem ipsum", "[Votre nom]", "TODO")
-- [ ] Toutes les URLs de liens sont valides (pas de `#` fake)
+- [ ] Aucun texte placeholder ("Lorem ipsum", "TODO")
+- [ ] Toutes les URLs de liens sont valides
 - [ ] Textes en FR et EN complets
 
 ---
@@ -221,44 +318,16 @@ Fichiers à créer :
 ## DÉPLOIEMENT
 
 ```bash
-# 1. Créer le repo GitHub
-gh repo create demo-NOM-DU-DEMO --public --source=. --push
+# 1. Commit et push
+git add . && git commit -m "feat: [nom du demo] — site complet" && git push
 
 # 2. Déployer sur Vercel
-# vercel.com → Import Project → sélectionner le repo
-# Framework : Next.js (auto-détecté)
-# Deploy
+# vercel.com → Import Project → sélectionner le repo → Deploy
 
-# 3. Mettre à jour l'URL dans le portfolio principal
+# 3. Mettre à jour l'URL dans le portfolio principal (forge-digitale)
 # Fichier : src/content/projects.ts
-# Champ : url: "https://demo-NOM-DU-DEMO.vercel.app"
-# Puis git add . && git commit -m "feat: add demo URL" && git push
+# Champ : url: "https://demo-NOM.vercel.app"
 ```
-
----
-
-## COMMANDES UTILES
-
-```bash
-npm run dev      # Dev local → localhost:3000
-npm run build    # Build prod — vérifier avant chaque commit
-npm run lint     # ESLint
-
-# Scaffolding d'un nouveau démo depuis zéro
-npx create-next-app@latest demo-NOM --typescript --tailwind --eslint --app --src-dir --import-alias "@/*" --use-npm
-cd demo-NOM
-npm install framer-motion next-themes next-intl lucide-react clsx tailwind-merge
-```
-
----
-
-## RÉFÉRENCE — Portfolio principal
-
-Le portfolio (`forge-digitale`) contient les composants de base réutilisables :
-- `src/components/animations/FadeIn.tsx` — à copier dans chaque démo
-- `src/components/animations/SlideUp.tsx` — à copier dans chaque démo
-- `src/lib/utils.ts` — fonction `cn()` — à copier dans chaque démo
-- `src/i18n/routing.ts` + `request.ts` + `middleware.ts` — à copier et adapter
 
 ---
 
