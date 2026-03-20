@@ -1,0 +1,179 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "menu": "Menu",
+    "galerie": "Galerie",
+    "contact": "Contact",
+    "reserve": "Réserver",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "hero": {
+    "badge": "Gastronomie Française · 2 Étoiles Michelin",
+    "preTitle": "L'Art de la",
+    "title": "Table Dorée",
+    "subtitle": "Une expérience gastronomique unique au cœur de Paris — où chaque plat raconte une histoire et chaque repas devient un souvenir inoubliable.",
+    "cta": "Réserver une table",
+    "ctaSecondary": "Découvrir le menu",
+    "scrollLabel": "Découvrir"
+  },
+  "awards": {
+    "michelin": "2 Étoiles Michelin",
+    "michelinSince": "Depuis 2008",
+    "gault": "Gault & Millau",
+    "gaultScore": "18/20",
+    "founded": "Fondé en",
+    "foundedYear": "1987",
+    "wine": "Cave d'Exception",
+    "wineCount": "+800 Références"
+  },
+  "about": {
+    "badge": "Notre Histoire",
+    "title": "Une Passion Transmise de Génération en Génération",
+    "description1": "Fondé en 1987 par le Chef Henri Beaumont, La Table Dorée est né d'une vision simple : offrir une gastronomie française authentique dans un cadre d'exception. Pendant trente-six ans, ce lieu est devenu une institution parisienne reconnue dans le monde entier.",
+    "description2": "Aujourd'hui, sous la direction du Chef Lucas Beaumont, nous perpétuons cet héritage avec créativité et passion. Chaque assiette est composée des meilleurs produits de saison, sourcés auprès de producteurs locaux engagés dans une agriculture responsable.",
+    "chefName": "Chef Lucas Beaumont",
+    "chefTitle": "Chef Exécutif & Propriétaire",
+    "chefQuote": "La cuisine, c'est l'art de transformer des ingrédients simples en émotions extraordinaires.",
+    "stat1Value": "36",
+    "stat1Label": "Années d'Excellence",
+    "stat2Value": "2",
+    "stat2Label": "Étoiles Michelin",
+    "stat3Value": "800+",
+    "stat3Label": "Références de Vins",
+    "learnMore": "Notre philosophie"
+  },
+  "menu": {
+    "badge": "Nos Créations",
+    "title": "Une Carte Pensée pour l'Exception",
+    "subtitle": "Découvrez nos plats signature, élaborés avec les meilleurs produits de saison et servis dans un souci de perfection absolue.",
+    "viewAll": "Voir le Menu Complet",
+    "categories": {
+      "entrees": "Entrées",
+      "plats": "Plats",
+      "desserts": "Desserts"
+    },
+    "tags": {
+      "signature": "Signature",
+      "seasonal": "Saisonnier",
+      "vegetarian": "Végétarien",
+      "seafood": "Fruits de Mer"
+    },
+    "items": {
+      "dish1Name": "Foie Gras Poêlé",
+      "dish1Desc": "Chutney de figues maison, brioche toastée au beurre Guérande, vinaigrette au vieux porto",
+      "dish1Price": "42",
+      "dish2Name": "Carpaccio de Saint-Jacques",
+      "dish2Desc": "Noix de Saint-Jacques de la baie de Seine, caviar Osciètre, émulsion yuzu, huile d'olive de Provence",
+      "dish2Price": "58",
+      "dish3Name": "Filet de Bœuf Rossini",
+      "dish3Desc": "Bœuf Wagyu, escalope de foie gras poêlée, sauce Périgueux à la truffe noire, gratin dauphinois",
+      "dish3Price": "95",
+      "dish4Name": "Homard Bleu Breton",
+      "dish4Desc": "Homard de Bretagne, bisque de crustacés, fenouil confit, beurre blanc au Champagne",
+      "dish4Price": "110",
+      "dish5Name": "Soufflé Grand Marnier",
+      "dish5Desc": "Soufflé chaud à l'orange, sorbet mandarine de Corse, dentelle de chocolat Valrhona",
+      "dish5Price": "28",
+      "dish6Name": "Mille-Feuille Revisité",
+      "dish6Desc": "Feuilletage caramélisé, crème diplomate à la vanille de Tahiti, caramel breton salé",
+      "dish6Price": "24"
+    },
+    "pageTitle": "Notre Menu",
+    "pageSubtitle": "Une carte évoluant au rythme des saisons, imaginée chaque jour par notre brigade.",
+    "priceNote": "Les prix sont en euros, service compris. Informez-nous de vos allergies.",
+    "winePairing": "Accord Mets & Vins disponible sur demande"
+  },
+  "gallery": {
+    "badge": "Notre Univers",
+    "title": "L'Élégance à Chaque Instant",
+    "subtitle": "Plongez dans l'atmosphère unique de La Table Dorée — de notre cuisine ouverte à notre salle lumineuse.",
+    "pageTitle": "Notre Galerie",
+    "pageSubtitle": "Images de notre univers gastronomique.",
+    "categories": {
+      "all": "Tout",
+      "cuisine": "Cuisine",
+      "ambiance": "Ambiance",
+      "evenements": "Événements"
+    }
+  },
+  "testimonials": {
+    "badge": "Ils Nous Font Confiance",
+    "title": "L'Avis de Nos Convives",
+    "subtitle": "Des expériences inoubliables partagées par nos clients du monde entier.",
+    "items": {
+      "t1Name": "Sophie M.",
+      "t1Role": "Cliente fidèle depuis 2015",
+      "t1Text": "Une expérience transcendante. Chaque plat est une œuvre d'art, la salle irradie l'élégance et le service est d'une attention rare. La Table Dorée est sans doute le meilleur restaurant que j'aie jamais fréquenté.",
+      "t2Name": "James W.",
+      "t2Role": "Visiteur de Londres",
+      "t2Text": "Words fail to describe this experience. From the moment we entered to the last bite of dessert, everything was perfection. Chef Beaumont's foie gras is simply life-changing.",
+      "t3Name": "Clara & Antoine D.",
+      "t3Role": "Anniversaire de mariage",
+      "t3Text": "Nous célébrions nos 10 ans de mariage. La Table Dorée a dépassé toutes nos attentes. L'attention aux détails, la cuisine, l'ambiance... Un souvenir que nous n'oublierons jamais.",
+      "t4Name": "Hiroshi T.",
+      "t4Role": "Critique gastronomique, Tokyo",
+      "t4Text": "In my thirty years as a food critic, very few restaurants have left me speechless. La Table Dorée is one of them. A masterclass in French gastronomy."
+    }
+  },
+  "contact": {
+    "badge": "Nous Trouver",
+    "title": "Partageons un Moment d'Exception",
+    "address": "15 Rue de la Paix",
+    "city": "75001 Paris, France",
+    "phone": "+33 1 42 33 44 55",
+    "email": "reservation@latabledoree.fr",
+    "hoursTitle": "Horaires d'Ouverture",
+    "lunch": "Déjeuner",
+    "lunchHours": "12h00 — 14h30",
+    "dinner": "Dîner",
+    "dinnerHours": "19h00 — 22h30",
+    "closedDay": "Fermé le lundi",
+    "reservationTitle": "Réserver une Table",
+    "formName": "Votre nom complet",
+    "formEmail": "Adresse email",
+    "formPhone": "Numéro de téléphone",
+    "formDate": "Date souhaitée",
+    "formGuests": "Nombre de couverts",
+    "formMessage": "Occasion spéciale ou demande particulière",
+    "formSubmit": "Confirmer la Réservation",
+    "formNote": "Nous vous confirmerons la disponibilité dans les 24h.",
+    "pageTitle": "Contact & Réservation",
+    "pageSubtitle": "Réservez votre table pour une expérience inoubliable."
+  },
+  "cta": {
+    "title": "Prêt pour une Expérience Inoubliable ?",
+    "subtitle": "Réservez dès maintenant et laissez-vous emporter par notre gastronomie d'exception.",
+    "button": "Réserver ma table",
+    "phone": "Ou appelez-nous"
+  },
+  "footer": {
+    "tagline": "Gastronomie française d'exception depuis 1987",
+    "stars": "2 Étoiles Michelin",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
+    "hoursTitle": "Horaires",
+    "lunchShort": "Déj : 12h00–14h30",
+    "dinnerShort": "Dîn : 19h00–22h30",
+    "closedShort": "Fermé lundi",
+    "legal": "Mentions légales",
+    "privacy": "Confidentialité",
+    "copyright": "© 2024 La Table Dorée. Tous droits réservés.",
+    "madeBy": "Réalisé par"
+  },
+  "notFound": {
+    "title": "Page Introuvable",
+    "description": "Cette page n'existe pas ou a été déplacée. Retournez à l'accueil pour continuer votre visite.",
+    "back": "Retour à l'accueil"
+  },
+  "metadata": {
+    "homeTitle": "La Table Dorée — Gastronomie Française · Paris",
+    "homeDescription": "Découvrez La Table Dorée, restaurant gastronomique 2 étoiles Michelin au cœur de Paris. Cuisine française d'exception, ambiance raffinée, cave de 800 références.",
+    "menuTitle": "Menu — La Table Dorée",
+    "menuDescription": "Explorez notre carte gastronomique : entrées, plats signature et desserts d'exception. Produits de saison, sourcing local.",
+    "galerieTitle": "Galerie — La Table Dorée",
+    "galerieDescription": "Plongez dans l'univers visuel de La Table Dorée : cuisine ouverte, salle élégante, créations culinaires.",
+    "contactTitle": "Contact & Réservation — La Table Dorée",
+    "contactDescription": "Réservez votre table au restaurant La Table Dorée, 15 Rue de la Paix, Paris. Déjeuner et dîner du mardi au dimanche."
+  }
+}

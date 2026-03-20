@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /_next/
+Disallow: /api/
+
+Sitemap: https://demo-restaurant-la-table-doree.vercel.app/sitemap.xml
