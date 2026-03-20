@@ -32,7 +32,7 @@ export default function About() {
                 className="relative aspect-[3/4] overflow-hidden"
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1559339352-11d035aa65ce?w=900&q=85"
+                  src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=900&q=85"
                   alt="Salle de restaurant La Table Dorée"
                   fill
                   className="object-cover"
@@ -106,7 +106,7 @@ export default function About() {
                 <div className="flex items-start gap-4">
                   <div className="relative w-14 h-14 shrink-0 overflow-hidden rounded-full border-2 border-gold-500/40">
                     <Image
-                      src="https://images.unsplash.com/photo-1583394293214-0e8e25f3a1b5?w=100&q=85"
+                      src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?w=100&q=85"
                       alt={t('chefName')}
                       fill
                       className="object-cover"

@@ -53,7 +53,7 @@ export const MENU_ITEMS: MenuItem[] = [
     price: 110,
     category: 'plat',
     image:
-      'https://images.unsplash.com/photo-1559339352-11d035aa65ce?w=800&q=80',
+      'https://images.unsplash.com/photo-1559742811-822873691df8?w=800&q=80',
     tags: ['seafood', 'signature'],
   },
   {
@@ -113,7 +113,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
   },
   {
     id: 'g2',
-    src: 'https://images.unsplash.com/photo-1559339352-11d035aa65ce?w=1200&q=80',
+    src: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=1200&q=80',
     alt: 'Salle principale de La Table Dorée',
     category: 'ambiance',
     width: 1200,
@@ -145,7 +145,7 @@ export const GALLERY_IMAGES: GalleryImage[] = [
   },
   {
     id: 'g6',
-    src: 'https://images.unsplash.com/photo-1551218808-1f8abcf5c5b8?w=1200&q=80',
+    src: 'https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=1200&q=80',
     alt: 'Dîner de gala à La Table Dorée',
     category: 'evenements',
     width: 1200,

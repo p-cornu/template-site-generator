@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint src --ext .ts,.tsx"
+    "lint": "eslint src --ext .ts,.tsx",
+    "check-images": "node scripts/check-images.mjs",
+    "fix-images": "node scripts/check-images.mjs --fix",
+    "test:images": "node scripts/check-images.test.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",
