@@ -85,9 +85,9 @@ export const galleryImages: GalleryImage[] = [
   },
   {
     id: 'g6',
-    src: 'https://images.unsplash.com/photo-1600093462592-fd7168048b4f?w=900&q=80',
-    alt: 'Brunch coloré avec œufs et fruits frais',
-    altEn: 'Colourful brunch with eggs and fresh fruit',
+    src: 'https://images.unsplash.com/photo-1484723091739-30990e1a6e06?w=900&q=80',
+    alt: 'Brunch coloré avec toast avocat et fruits frais',
+    altEn: 'Colourful brunch with avocado toast and fresh fruit',
   },
 ];
 

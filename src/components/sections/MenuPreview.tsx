@@ -14,13 +14,13 @@ const FEATURED = [
     descKey: 'cappuccino.desc',
   },
   {
-    imgSrc: 'https://images.unsplash.com/photo-1548967341-57b2a4c88e45?w=700&q=80',
+    imgSrc: 'https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=700&q=80',
     price: '3,80 €',
     nameKey: 'kouignAmann.name',
     descKey: 'kouignAmann.desc',
   },
   {
-    imgSrc: 'https://images.unsplash.com/photo-1600093462592-fd7168048b4f?w=700&q=80',
+    imgSrc: 'https://images.unsplash.com/photo-1484723091739-30990e1a6e06?w=700&q=80',
     price: '18,50 €',
     nameKey: 'brunchFlour.name',
     descKey: 'brunchFlour.desc',
@@ -34,7 +34,7 @@ export default function MenuPreview() {
     <section id="menu" className="section-py bg-[var(--color-surface)]">
       <Container>
         {/* Header */}
-        <div className="text-center mb-14">
+        <div className="text-center mb-16">
           <FadeIn>
             <span className="inline-block text-xs font-body font-semibold tracking-[0.25em] uppercase text-[var(--color-gold-500)] mb-4">
               {t('badge')}
@@ -42,7 +42,7 @@ export default function MenuPreview() {
             <h2 className="font-display font-semibold text-4xl sm:text-5xl text-[var(--color-foreground)] mb-4">
               {t('title')}
             </h2>
-            <p className="text-[var(--color-muted)] max-w-md mx-auto text-base">
+            <p className="text-[var(--color-muted)] max-w-xl mx-auto text-base leading-relaxed">
               {t('subtitle')}
             </p>
           </FadeIn>
@@ -68,8 +68,8 @@ export default function MenuPreview() {
                       {item.price}
                     </div>
                   </div>
-                  <div className="p-5">
-                    <h3 className="font-display font-semibold text-lg text-[var(--color-foreground)] mb-2 group-hover:text-[var(--color-gold-500)] transition-colors duration-300">
+                  <div className="p-6">
+                    <h3 className="font-display font-semibold text-xl text-[var(--color-foreground)] mb-3 group-hover:text-[var(--color-gold-500)] transition-colors duration-300">
                       {name}
                     </h3>
                     <p className="text-sm text-[var(--color-muted)] leading-relaxed">

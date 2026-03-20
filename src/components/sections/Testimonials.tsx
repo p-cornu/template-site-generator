@@ -29,7 +29,7 @@ export default function Testimonials() {
             const textKey = item.id;
             return (
               <SlideUp key={item.id} delay={i * 0.1}>
-                <article className="flex flex-col gap-5 p-7 rounded-2xl bg-[var(--color-surface)] border border-[var(--color-border)] hover:border-[var(--color-gold-300)] hover:shadow-lg transition-all duration-300">
+                <article className="flex flex-col gap-6 p-8 rounded-2xl bg-[var(--color-surface)] border border-[var(--color-border)] hover:border-[var(--color-gold-300)] hover:shadow-lg transition-all duration-300">
                   {/* Stars */}
                   <div
                     className="flex gap-1"
@@ -45,7 +45,7 @@ export default function Testimonials() {
 
                   {/* Quote */}
                   <blockquote>
-                    <p className="text-sm text-[var(--color-muted)] leading-relaxed italic">
+                    <p className="text-base text-[var(--color-muted)] leading-loose italic">
                       &ldquo;{t(textKey as Parameters<typeof t>[0])}&rdquo;
                     </p>
                   </blockquote>

@@ -23,7 +23,7 @@ export default function Contact() {
           </FadeIn>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 lg:gap-20 items-start">
           {/* Info */}
           <div className="space-y-8">
             {/* Address */}

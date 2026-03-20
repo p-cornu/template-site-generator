@@ -17,7 +17,7 @@ export default function About() {
   return (
     <section id="about" className="section-py bg-[var(--color-background)]">
       <Container>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           {/* Image side */}
           <FadeIn className="relative order-2 lg:order-1">
             <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
@@ -62,13 +62,13 @@ export default function About() {
             </SlideUp>
 
             <SlideUp delay={0.15}>
-              <p className="text-[var(--color-muted)] text-base leading-relaxed">
+              <p className="text-[var(--color-muted)] text-base leading-loose">
                 {t('paragraph1')}
               </p>
             </SlideUp>
 
             <SlideUp delay={0.2}>
-              <p className="text-[var(--color-muted)] text-base leading-relaxed">
+              <p className="text-[var(--color-muted)] text-base leading-loose">
                 {t('paragraph2')}
               </p>
             </SlideUp>

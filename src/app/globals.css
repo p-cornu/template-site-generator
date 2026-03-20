@@ -85,7 +85,8 @@ body {
   background-color: var(--color-background);
   color: var(--color-foreground);
   transition: background-color 0.3s ease, color 0.3s ease;
-  line-height: 1.7;
+  line-height: 1.8;
+  font-size: 1rem;
 }
 
 /* ── Scroll-bar ───────────────────────────────────────────── */
@@ -123,14 +124,14 @@ body {
 
 /* ── Section padding helper ───────────────────────────────── */
 .section-py {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 @media (min-width: 768px) {
   .section-py {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
 }
 
