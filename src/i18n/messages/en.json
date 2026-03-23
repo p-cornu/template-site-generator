@@ -162,6 +162,22 @@
     "githubAlt": "PulseTrack on GitHub",
     "linkedinAlt": "PulseTrack on LinkedIn"
   },
+  "liveStats": {
+    "ls1Label": "Events tracked",
+    "ls1Sub": "processed this month in real time",
+    "ls2Label": "Guaranteed uptime",
+    "ls2Sub": "over the last 12 consecutive months",
+    "ls3Label": "Active teams",
+    "ls3Sub": "across 42 countries worldwide",
+    "ls4Label": "Dashboard latency",
+    "ls4Sub": "average P95 load time"
+  },
+  "integrations": {
+    "badge": "Integrations",
+    "title": "Connected to your entire stack",
+    "subtitle": "PulseTrack integrates natively with your existing tools. No complex setup — plug in and start measuring in minutes.",
+    "cta": "View all integrations"
+  },
   "notFound": {
     "title": "404",
     "subtitle": "Page not found",

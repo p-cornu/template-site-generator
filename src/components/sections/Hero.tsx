@@ -2,7 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { motion, type Variants } from 'framer-motion';
-import { ArrowRight, Play, TrendingUp, Users, Activity } from 'lucide-react';
+import { ArrowRight, Play } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const containerVariants: Variants = {
@@ -19,16 +19,8 @@ const itemVariants: Variants = {
   },
 };
 
-const statIcons = [TrendingUp, Users, Activity];
-
 export default function Hero() {
   const t = useTranslations('hero');
-
-  const stats = [
-    { valueKey: 'stat1Value', labelKey: 'stat1Label' },
-    { valueKey: 'stat2Value', labelKey: 'stat2Label' },
-    { valueKey: 'stat3Value', labelKey: 'stat3Label' },
-  ];
 
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden bg-bg-primary pt-20 pb-10">
@@ -105,7 +97,7 @@ export default function Hero() {
           {/* CTAs */}
           <motion.div
             variants={itemVariants}
-            className="flex flex-col sm:flex-row items-center gap-4 mb-16"
+            className="flex flex-col sm:flex-row items-center gap-4 mb-8"
           >
             <a
               href="#pricing"
@@ -138,25 +130,16 @@ export default function Hero() {
             </a>
           </motion.div>
 
-          {/* Stats */}
+          {/* Stats — discrets, en ligne */}
           <motion.div
             variants={itemVariants}
-            className="flex flex-col sm:flex-row items-center gap-6 sm:gap-12 mb-16"
+            className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 mb-14 text-sm text-text-faint"
           >
-            {stats.map((stat, i) => {
-              const Icon = statIcons[i];
-              return (
-                <div key={stat.valueKey} className="flex items-center gap-3">
-                  <div className="flex items-center justify-center w-8 h-8 rounded-lg bg-violet-600/15 border border-violet-600/20">
-                    <Icon className="w-4 h-4 text-violet-400" />
-                  </div>
-                  <div className="text-left">
-                    <div className="font-display font-bold text-xl text-text-primary">{t(stat.valueKey)}</div>
-                    <div className="text-xs text-text-muted">{t(stat.labelKey)}</div>
-                  </div>
-                </div>
-              );
-            })}
+            <span>✓ {t('stat1Value')} {t('stat1Label')}</span>
+            <span className="hidden sm:inline w-px h-3 bg-border-subtle" />
+            <span>✓ {t('stat2Value')} {t('stat2Label')}</span>
+            <span className="hidden sm:inline w-px h-3 bg-border-subtle" />
+            <span>✓ {t('stat3Value')} {t('stat3Label')}</span>
           </motion.div>
 
           {/* Dashboard mockup */}
@@ -193,29 +176,26 @@ export default function Hero() {
               <div className="p-6 bg-bg-surface grid grid-cols-4 gap-4">
                 {/* Mini metric cards */}
                 {[
-                  { label: 'MRR', value: '$48K', color: '#7c3aed', up: true },
-                  { label: 'Users', value: '12.8K', color: '#00f0ff', up: true },
-                  { label: 'Retention', value: '94.2%', color: '#8b5cf6', up: true },
-                  { label: 'Churn', value: '2.8%', color: '#f472b6', up: false },
+                  { label: 'MRR', value: '$48K', up: true, pct: '12.5%' },
+                  { label: 'Users', value: '12.8K', up: true, pct: '8.3%' },
+                  { label: 'Retention', value: '94.2%', up: true, pct: '2.1%' },
+                  { label: 'Churn', value: '2.8%', up: false, pct: '0.4%' },
                 ].map((m) => (
                   <div key={m.label} className="rounded-xl p-3 bg-bg-card border border-border-subtle">
                     <div className="text-xs text-text-muted mb-1">{m.label}</div>
                     <div className="font-display font-bold text-lg text-text-primary">{m.value}</div>
-                    <div
-                      className="text-xs font-medium mt-1"
-                      style={{ color: m.up ? '#4ade80' : '#f87171' }}
-                    >
-                      {m.up ? '↑' : '↓'} {m.up ? '12.5%' : '0.4%'}
+                    <div className="text-xs font-medium mt-1" style={{ color: m.up ? '#4ade80' : '#f87171' }}>
+                      {m.up ? '↑' : '↓'} {m.pct}
                     </div>
                   </div>
                 ))}
 
-                {/* Fake chart bars */}
-                <div className="col-span-4 rounded-xl p-4 bg-bg-card border border-border-subtle">
+                {/* Chart mockup */}
+                <div className="col-span-3 rounded-xl p-4 bg-bg-card border border-border-subtle">
                   <div className="text-xs text-text-muted mb-4">Revenue — Last 7 days</div>
                   <div className="flex items-end gap-2 h-20">
                     {[40, 65, 52, 78, 88, 72, 95].map((h, i) => (
-                      <div key={i} className="flex-1 rounded-t-sm transition-all" style={{
+                      <div key={i} className="flex-1 rounded-t-sm" style={{
                         height: `${h}%`,
                         background: `linear-gradient(to top, #7c3aed, #00f0ff)`,
                         opacity: 0.6 + (i / 10),
@@ -227,6 +207,25 @@ export default function Hero() {
                       <span key={d} className="text-xs text-text-faint">{d}</span>
                     ))}
                   </div>
+                </div>
+
+                {/* Mini donut placeholder */}
+                <div className="col-span-1 rounded-xl p-4 bg-bg-card border border-border-subtle flex flex-col gap-2">
+                  <div className="text-xs text-text-muted mb-1">Sources</div>
+                  {[
+                    { label: 'Organic', pct: 42, color: '#7c3aed' },
+                    { label: 'Direct', pct: 31, color: '#00f0ff' },
+                    { label: 'Paid', pct: 27, color: '#a78bfa' },
+                  ].map((s) => (
+                    <div key={s.label}>
+                      <div className="flex justify-between text-xs text-text-faint mb-1">
+                        <span>{s.label}</span><span>{s.pct}%</span>
+                      </div>
+                      <div className="h-1.5 rounded-full bg-bg-surface">
+                        <div className="h-1.5 rounded-full" style={{ width: `${s.pct}%`, background: s.color }} />
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>

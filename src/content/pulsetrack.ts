@@ -68,6 +68,27 @@ export const chartDataMonthly: ChartDataPoint[] = [
   { name: 'Juin', value: 220000, secondary: 142000 },
 ];
 
+export interface Integration {
+  name: string;
+  letter: string;
+  color: string;
+}
+
+export const integrations: Integration[] = [
+  { name: 'Slack', letter: 'Sl', color: '#4A154B' },
+  { name: 'Stripe', letter: 'St', color: '#635BFF' },
+  { name: 'HubSpot', letter: 'Hs', color: '#FF7A59' },
+  { name: 'Salesforce', letter: 'Sf', color: '#00A1E0' },
+  { name: 'Notion', letter: 'No', color: '#ffffff' },
+  { name: 'Zapier', letter: 'Za', color: '#FF4A00' },
+  { name: 'Segment', letter: 'Sg', color: '#52BD94' },
+  { name: 'Intercom', letter: 'In', color: '#1F8DED' },
+  { name: 'Mixpanel', letter: 'Mx', color: '#7856FF' },
+  { name: 'Amplitude', letter: 'Am', color: '#197CF8' },
+  { name: 'Shopify', letter: 'Sh', color: '#96BF48' },
+  { name: 'Typeform', letter: 'Tf', color: '#262627' },
+];
+
 export const siteUrl = 'https://demo-saas-pulsetrack.vercel.app';
 
 export const socialLinks = {
