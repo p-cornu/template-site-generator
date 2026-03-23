@@ -2,7 +2,8 @@ import type { ReactNode } from 'react';
 import type { Metadata } from 'next';
 import { Sora, Inter } from 'next/font/google';
 import { ThemeProvider } from 'next-themes';
-import { getTranslations } from 'next-intl/server';
+import { NextIntlClientProvider } from 'next-intl';
+import { getMessages, getTranslations } from 'next-intl/server';
 import '../globals.css';
 
 const sora = Sora({
@@ -53,6 +54,7 @@ export default async function LocaleLayout({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  const messages = await getMessages();
 
   return (
     <html
@@ -61,14 +63,16 @@ export default async function LocaleLayout({
       suppressHydrationWarning
     >
       <body className="font-body antialiased">
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          enableSystem={false}
-          disableTransitionOnChange={false}
-        >
-          {children}
-        </ThemeProvider>
+        <NextIntlClientProvider messages={messages}>
+          <ThemeProvider
+            attribute="class"
+            defaultTheme="dark"
+            enableSystem={false}
+            disableTransitionOnChange={false}
+          >
+            {children}
+          </ThemeProvider>
+        </NextIntlClientProvider>
       </body>
     </html>
   );
