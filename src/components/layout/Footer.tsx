@@ -1,5 +1,5 @@
 import { getTranslations } from 'next-intl/server';
-import { Zap, Twitter, Github, Linkedin } from 'lucide-react';
+import { Zap, Twitter, Linkedin } from 'lucide-react';
 import { socialLinks } from '@/content/pulsetrack';
 
 export default async function Footer() {
@@ -74,14 +74,7 @@ export default async function Footer() {
               >
                 <Twitter className="w-4 h-4" />
               </a>
-              <a
-                href={socialLinks.github}
-                aria-label={t('githubAlt')}
-                className="flex items-center justify-center w-9 h-9 rounded-lg bg-bg-card text-text-muted hover:text-neon hover:bg-bg-card-hover border border-border-subtle transition-all duration-200"
-              >
-                <Github className="w-4 h-4" />
-              </a>
-              <a
+<a
                 href={socialLinks.linkedin}
                 aria-label={t('linkedinAlt')}
                 className="flex items-center justify-center w-9 h-9 rounded-lg bg-bg-card text-text-muted hover:text-neon hover:bg-bg-card-hover border border-border-subtle transition-all duration-200"

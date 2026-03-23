@@ -72,6 +72,5 @@ export const siteUrl = 'https://demo-saas-pulsetrack.vercel.app';
 
 export const socialLinks = {
   twitter: 'https://twitter.com',
-  github: 'https://github.com',
   linkedin: 'https://linkedin.com',
 };
