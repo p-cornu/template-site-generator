@@ -1,8 +1,25 @@
 {
-  "name": "Forge Digitale Demo",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
-  "features": {
-    "ghcr.io/anthropics/devcontainer-features/claude-code:latest": {}
+  "name": "Hotel Belvedere — Dev",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-20",
+  "postCreateCommand": "npm install && npm install -g @anthropic-ai/claude-code",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "anthropic.claude-code",
+        "bradlc.vscode-tailwindcss",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "ms-vscode.vscode-typescript-next"
+      ],
+      "settings": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "tailwindCSS.experimental.classRegex": [["cn\\(([^)]*)\\)", "'([^']*)'"], ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]]
+      }
+    }
   },
-  "postCreateCommand": "npm install"
+  "forwardPorts": [3000],
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
+  }
 }

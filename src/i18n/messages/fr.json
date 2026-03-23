@@ -1,0 +1,188 @@
+{
+  "nav": {
+    "chambres": "Chambres",
+    "restaurant": "Restaurant",
+    "spa": "Spa & Bien-être",
+    "galerie": "Galerie",
+    "contact": "Contact",
+    "reserver": "Réserver",
+    "menu": "Ouvrir le menu",
+    "fermer": "Fermer le menu",
+    "darkMode": "Changer le thème",
+    "language": "Changer de langue"
+  },
+  "hero": {
+    "tagline": "Depuis 1923",
+    "title": "L'Horizon\nMéditerranéen",
+    "subtitle": "Vivez l'excellence sur la Côte d'Azur. Vue mer imprenable, gastronomie d'exception et art de vivre provençal au cœur d'Èze-sur-Mer.",
+    "ctaReserver": "Réserver votre séjour",
+    "ctaDecouvrir": "Découvrir l'hôtel"
+  },
+  "about": {
+    "tagline": "Notre Histoire",
+    "title": "L'Art de l'Hospitalité Méditerranéenne",
+    "description": "Depuis 1923, l'Hôtel Belvédère incarne l'art de vivre à la française sur la Côte d'Azur. Perché au-dessus des eaux turquoise de la Méditerranée, notre maison de 48 chambres conjugue le charme d'une architecture Belle Époque avec le raffinement du luxe contemporain.",
+    "description2": "Chaque détail — du marbre de Carrare de nos salles de bain aux collections d'art sélectionnées par nos commissaires — témoigne de notre engagement indéfectible envers l'excellence et l'authenticité provençale.",
+    "since": "Établi en 1923",
+    "rooms": "48 chambres & suites",
+    "stars": "Hôtel 5 étoiles",
+    "awards": "Relais & Châteaux"
+  },
+  "rooms": {
+    "tagline": "Nos Hébergements",
+    "title": "Chambres & Suites",
+    "subtitle": "Chaque chambre est une invitation au voyage, où l'élégance provençale se mêle à un confort d'exception avec vue sur la Méditerranée.",
+    "ctaView": "Voir les détails",
+    "ctaBook": "Réserver",
+    "surface": "m²",
+    "capacity": "personnes",
+    "perNight": "/ nuit",
+    "viewDetails": "Découvrir",
+    "from": "À partir de",
+    "features": "Équipements",
+    "suiteTitle": "Suite Panoramique",
+    "suiteDesc": "Notre suite la plus exclusive offre une vue panoramique à 180° sur la Méditerranée, une terrasse privée et un jacuzzi extérieur.",
+    "deluxeTitle": "Chambre Vue Mer",
+    "deluxeDesc": "Élégante chambre avec balcon et vue directe sur la mer, décorée dans un style provençal contemporain raffiné.",
+    "classiqueTitle": "Chambre Classique",
+    "classiqueDesc": "Le charme de la Belle Époque dans un cadre intime et confortable, avec tout l'équipement pour un séjour parfait."
+  },
+  "restaurant": {
+    "tagline": "Gastronomie",
+    "title": "La Terrasse du Belvédère",
+    "subtitle": "Une cuisine méditerranéenne d'exception avec vue imprenable sur la Côte d'Azur",
+    "description": "Sous la direction du Chef Éric Morel, La Terrasse célèbre les saveurs authentiques de la Méditerranée. Produits locaux, techniques classiques sublimées, carte des vins sélectionnée par notre sommelier — chaque repas est une expérience sensorielle unique.",
+    "hours": "Ouvert tous les jours · Déjeuner 12h-14h30 · Dîner 19h-22h30",
+    "viewMenu": "Voir la carte",
+    "reserve": "Réserver une table",
+    "starters": "Entrées",
+    "mains": "Plats",
+    "desserts": "Desserts",
+    "wine": "Cave à vins",
+    "wineDesc": "Plus de 400 références soigneusement sélectionnées par notre sommelier"
+  },
+  "spa": {
+    "tagline": "Bien-être",
+    "title": "Espace Spa & Sérénité",
+    "subtitle": "Offrez-vous une parenthèse de pure sérénité au cœur de la Côte d'Azur",
+    "description": "Notre spa de 800m² propose une gamme complète de soins inspirés des traditions méditerranéennes. Piscine intérieure chauffée, hammam, sauna, salle de fitness — laissez-vous porter par la sérénité de la mer.",
+    "bookSpa": "Réserver un soin",
+    "discover": "Découvrir le spa",
+    "duration": "min",
+    "from": "À partir de",
+    "services": {
+      "massage-signature": {
+        "name": "Massage Signature Belvédère",
+        "description": "Notre massage exclusif combinant techniques suédoises et méditerranéennes pour une relaxation profonde"
+      },
+      "soin-visage": {
+        "name": "Soin Visage Luminosité",
+        "description": "Protocole anti-âge aux actifs marins, hydratation intense et éclat immédiat garanti"
+      },
+      "hammam-gommage": {
+        "name": "Rituel Hammam & Gommage",
+        "description": "Purification complète au savon beldi, gommage kessa et enveloppement à l'argile blanche"
+      },
+      "rituel-mediterraneen": {
+        "name": "Grand Rituel Méditerranéen",
+        "description": "L'expérience ultime : bain de floraison, massage quatre mains, soin du visage et cérémonie du thé"
+      }
+    }
+  },
+  "gallery": {
+    "tagline": "En Images",
+    "title": "Galerie du Belvédère",
+    "subtitle": "Laissez-vous séduire par la beauté de notre établissement et l'éclat de la Côte d'Azur",
+    "all": "Tout",
+    "rooms": "Chambres",
+    "restaurant": "Restaurant",
+    "spa": "Spa",
+    "exterior": "Extérieur",
+    "pool": "Piscine"
+  },
+  "testimonials": {
+    "tagline": "Témoignages",
+    "title": "Ce que disent nos hôtes"
+  },
+  "location": {
+    "tagline": "Nous Trouver",
+    "title": "Au Cœur de la Côte d'Azur",
+    "address": "12 Avenue de la Mer, Èze-sur-Mer, 06360 Alpes-Maritimes",
+    "phone": "+33 (0)4 93 01 23 45",
+    "email": "contact@hotel-belvedere-eze.fr",
+    "directions": "Voir l'itinéraire",
+    "howToReach": "Comment nous rejoindre",
+    "bycar": "En voiture : 15 min de Nice, 30 min de Monaco",
+    "bytrain": "En train : Gare d'Èze-sur-Mer à 2 km",
+    "byplane": "En avion : Aéroport Nice Côte d'Azur à 20 km",
+    "shuttle": "Navette privée disponible sur demande"
+  },
+  "cta": {
+    "tagline": "Réservation",
+    "title": "Votre Séjour d'Exception Commence Ici",
+    "subtitle": "Réservez directement sur notre site et bénéficiez de nos meilleures tarifs garantis, d'un accueil personnalisé et d'avantages exclusifs.",
+    "button": "Réserver votre séjour",
+    "advantage1": "Meilleur tarif garanti",
+    "advantage2": "Annulation flexible",
+    "advantage3": "Petit-déjeuner offert"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Notre équipe est à votre disposition pour rendre votre séjour inoubliable",
+    "name": "Nom complet",
+    "email": "Adresse email",
+    "phone": "Téléphone",
+    "dates": "Dates souhaitées",
+    "message": "Votre message",
+    "messagePlaceholder": "Comment pouvons-nous vous aider ?",
+    "send": "Envoyer le message",
+    "success": "Votre message a bien été envoyé. Nous vous répondrons dans les plus brefs délais.",
+    "info": "Informations",
+    "hours": "Réception ouverte 24h/24",
+    "concierge": "Service conciergerie disponible"
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Cette page s'est égarée quelque part sur la Méditerranée…",
+    "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "back": "Retour à l'accueil"
+  },
+  "footer": {
+    "description": "Hôtel de luxe 5 étoiles établi depuis 1923 sur la Côte d'Azur. 48 chambres et suites avec vue mer, restaurant gastronomique, spa et piscine à débordement.",
+    "links": "Navigation",
+    "legal": "Mentions légales",
+    "privacy": "Politique de confidentialité",
+    "copyright": "© 2025 Hôtel Belvédère · Èze-sur-Mer · Tous droits réservés",
+    "demo": "Site démo — Forge Digitale",
+    "social": "Retrouvez-nous",
+    "newsletter": "Newsletter",
+    "newsletterPlaceholder": "Votre adresse email",
+    "subscribe": "S'abonner"
+  },
+  "metadata": {
+    "home": {
+      "title": "Hôtel Belvédère — Luxe & Charme sur la Côte d'Azur",
+      "description": "Vivez une expérience hôtelière d'exception au cœur de la Côte d'Azur. Vue mer, gastronomie méditerranéenne, spa & piscine. Hôtel 5 étoiles depuis 1923."
+    },
+    "chambres": {
+      "title": "Chambres & Suites",
+      "description": "Découvrez nos 48 chambres et suites avec vue sur la Méditerranée. Du charme provençal à l'excellence du luxe contemporain."
+    },
+    "restaurant": {
+      "title": "La Terrasse — Restaurant Gastronomique",
+      "description": "Savourez une cuisine méditerranéenne d'exception avec vue imprenable sur la Côte d'Azur. Chef Éric Morel, produits locaux, vins sélectionnés."
+    },
+    "spa": {
+      "title": "Spa & Bien-être",
+      "description": "Notre spa de 800m² vous invite à une parenthèse de sérénité. Massages, soins du visage, hammam, piscine intérieure chauffée."
+    },
+    "galerie": {
+      "title": "Galerie Photos",
+      "description": "Découvrez en images la beauté de l'Hôtel Belvédère, ses chambres, son restaurant La Terrasse, son spa et ses vues sur la Méditerranée."
+    },
+    "contact": {
+      "title": "Contact & Réservation",
+      "description": "Contactez l'Hôtel Belvédère pour réserver votre séjour ou obtenir des informations. Notre équipe est à votre disposition 24h/24."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://demo-hotel-belvedere.vercel.app/sitemap.xml

@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@variant dark (&:is(.dark *));
+
+@theme {
+  --color-navy: #0f2040;
+  --color-navy-light: #1a3260;
+  --color-gold: #c9a84c;
+  --color-gold-light: #dbb96c;
+  --color-cream: #faf6ee;
+  --color-cream-dark: #f0e9d8;
+  --color-terra: #b5533c;
+  --color-terra-light: #cc6a4e;
+
+  --font-display: var(--font-bodoni);
+  --font-sans: var(--font-outfit);
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out-expo: cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-cream text-navy font-sans antialiased;
+}
+
+.dark body {
+  @apply bg-navy text-cream;
+}
+
+/* Gold separator */
+.gold-line {
+  @apply block w-12 h-0.5 bg-gold mx-auto my-6;
+}
+
+/* Elegant scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-cream-dark;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-gold rounded-full;
+}
+
+/* Selection colour */
+::selection {
+  @apply bg-gold/30 text-navy;
+}
+
+/* Focus visible */
+:focus-visible {
+  @apply outline-2 outline-offset-2 outline-gold;
+}
