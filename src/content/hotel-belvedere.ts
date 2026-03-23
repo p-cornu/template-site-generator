@@ -258,7 +258,7 @@ export const SPA_SERVICES: SpaService[] = [
   },
   {
     id: 'rituel-mediterraneen',
-    imageUrl: img('1519415943484-9fa1873496d4', 1200, 800),
+    imageUrl: img('1519125323398-675f0ddb6308', 1200, 800),
     duration: 120,
     price: 220,
   },
