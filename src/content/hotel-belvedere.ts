@@ -15,11 +15,11 @@ export const HOTEL_DATA = {
   images: {
     hero: img('1507525428034-b723cf961d3e', 1920, 1080),
     hero2: img('1571003123894-1f0594d2b5d9', 1920, 1080),
-    lobby: img('1551882547-ff40c63fe2e2', 1200, 800),
+    lobby: img('1578683010236-d716f9a3f461', 1200, 800),
     roomSuite: img('1631049307264-da0ec9d70304', 1200, 800),
     roomDeluxe: img('1582719478250-c89cae4dc85b', 1200, 800),
     roomClassic: img('1566665797739-1674de7a421a', 1200, 800),
-    restaurant: img('1559827291-72f579e70459', 1200, 800),
+    restaurant: img('1555396273-367ea4eb4db5', 1200, 800),
     restaurantFood: img('1414235077428-338989a2e8c0', 1200, 800),
     spa: img('1540555700478-4be289fbecef', 1200, 800),
     pool: img('1520250497591-112f2f40a3f4', 1200, 800),
@@ -102,8 +102,8 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
   },
   {
     id: 'gallery-3',
-    url: img('1551882547-ff40c63fe2e2', 1200, 900),
-    alt: 'Hall d\'entrée élégant du Belvédère',
+    url: img('1578683010236-d716f9a3f461', 1200, 900),
+    alt: 'Lobby élégant de l\'Hôtel Belvédère',
     width: 1200,
     height: 900,
     category: 'rooms',
@@ -118,7 +118,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
   },
   {
     id: 'gallery-5',
-    url: img('1559827291-72f579e70459', 1200, 900),
+    url: img('1555396273-367ea4eb4db5', 1200, 900),
     alt: 'La Terrasse — restaurant avec vue sur la mer',
     width: 1200,
     height: 900,
@@ -252,7 +252,7 @@ export const SPA_SERVICES: SpaService[] = [
   },
   {
     id: 'hammam-gommage',
-    imageUrl: img('1544161515-4be5d71abb6d', 1200, 800),
+    imageUrl: img('1575052814086-f385e2e2ad1b', 1200, 800),
     duration: 75,
     price: 95,
   },
