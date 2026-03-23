@@ -14,15 +14,15 @@ export const HOTEL_DATA = {
   email: 'contact@hotel-belvedere-eze.fr',
   images: {
     hero: img('1507525428034-b723cf961d3e', 1920, 1080),
-    hero2: img('1571003123894-1f0594d2b5d9', 1920, 1080),
-    lobby: img('1578683010236-d716f9a3f461', 1200, 800),
-    roomSuite: img('1631049307264-da0ec9d70304', 1200, 800),
-    roomDeluxe: img('1582719478250-c89cae4dc85b', 1200, 800),
-    roomClassic: img('1566665797739-1674de7a421a', 1200, 800),
+    hero2: img('1499793983690-e29da59ef1c2', 1920, 1080),
+    lobby: img('1455587734955-081b22074882', 1200, 800),
+    roomSuite: img('1600585154340-be6161a56a0c', 1200, 800),
+    roomDeluxe: img('1560185007-cde436f6a4d0', 1200, 800),
+    roomClassic: img('1445019980597-93fa8acb246c', 1200, 800),
     restaurant: img('1555396273-367ea4eb4db5', 1200, 800),
     restaurantFood: img('1414235077428-338989a2e8c0', 1200, 800),
     spa: img('1540555700478-4be289fbecef', 1200, 800),
-    pool: img('1520250497591-112f2f40a3f4', 1200, 800),
+    pool: img('1590490360182-c33d57733427', 1200, 800),
   },
 };
 
@@ -30,7 +30,7 @@ export const ROOMS_DATA: Room[] = [
   {
     id: 'suite-panoramique',
     slug: 'suite-panoramique',
-    imageUrl: img('1631049307264-da0ec9d70304', 1200, 800),
+    imageUrl: img('1600585154340-be6161a56a0c', 1200, 800),
     surface: 65,
     capacity: 2,
     priceFrom: 480,
@@ -48,7 +48,7 @@ export const ROOMS_DATA: Room[] = [
   {
     id: 'chambre-vue-mer',
     slug: 'chambre-vue-mer',
-    imageUrl: img('1582719478250-c89cae4dc85b', 1200, 800),
+    imageUrl: img('1560185007-cde436f6a4d0', 1200, 800),
     surface: 38,
     capacity: 2,
     priceFrom: 290,
@@ -66,7 +66,7 @@ export const ROOMS_DATA: Room[] = [
   {
     id: 'chambre-classique',
     slug: 'chambre-classique',
-    imageUrl: img('1566665797739-1674de7a421a', 1200, 800),
+    imageUrl: img('1445019980597-93fa8acb246c', 1200, 800),
     surface: 28,
     capacity: 2,
     priceFrom: 190,
@@ -94,7 +94,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
   },
   {
     id: 'gallery-2',
-    url: img('1571003123894-1f0594d2b5d9', 1200, 900),
+    url: img('1499793983690-e29da59ef1c2', 1200, 900),
     alt: 'Façade extérieure de l\'Hôtel Belvédère',
     width: 1200,
     height: 900,
@@ -102,7 +102,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
   },
   {
     id: 'gallery-3',
-    url: img('1578683010236-d716f9a3f461', 1200, 900),
+    url: img('1455587734955-081b22074882', 1200, 900),
     alt: 'Lobby élégant de l\'Hôtel Belvédère',
     width: 1200,
     height: 900,
@@ -110,7 +110,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
   },
   {
     id: 'gallery-4',
-    url: img('1631049307264-da0ec9d70304', 1200, 900),
+    url: img('1600585154340-be6161a56a0c', 1200, 900),
     alt: 'Suite Panoramique avec vue mer',
     width: 1200,
     height: 900,
@@ -134,7 +134,7 @@ export const GALLERY_PHOTOS: GalleryPhoto[] = [
   },
   {
     id: 'gallery-7',
-    url: img('1520250497591-112f2f40a3f4', 1200, 900),
+    url: img('1590490360182-c33d57733427', 1200, 900),
     alt: 'Piscine à débordement vue sur la mer',
     width: 1200,
     height: 900,
