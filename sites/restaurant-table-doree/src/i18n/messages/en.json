@@ -1,0 +1,179 @@
+{
+  "nav": {
+    "home": "Home",
+    "menu": "Menu",
+    "galerie": "Gallery",
+    "contact": "Contact",
+    "reserve": "Book a Table",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "hero": {
+    "badge": "French Gastronomy · 2 Michelin Stars",
+    "preTitle": "The Art of",
+    "title": "La Table Dorée",
+    "subtitle": "A unique gastronomic experience in the heart of Paris — where every dish tells a story and every meal becomes an unforgettable memory.",
+    "cta": "Book a table",
+    "ctaSecondary": "Explore the menu",
+    "scrollLabel": "Discover"
+  },
+  "awards": {
+    "michelin": "2 Michelin Stars",
+    "michelinSince": "Since 2008",
+    "gault": "Gault & Millau",
+    "gaultScore": "18/20",
+    "founded": "Founded in",
+    "foundedYear": "1987",
+    "wine": "Exceptional Wine Cellar",
+    "wineCount": "+800 References"
+  },
+  "about": {
+    "badge": "Our Story",
+    "title": "A Passion Passed Down Through Generations",
+    "description1": "Founded in 1987 by Chef Henri Beaumont, La Table Dorée was born from a simple vision: to offer authentic French gastronomy in an exceptional setting. For thirty-six years, this place has become a Parisian institution recognized worldwide.",
+    "description2": "Today, under the direction of Chef Lucas Beaumont, we perpetuate this legacy with creativity and passion. Every plate is composed of the finest seasonal produce, sourced from local producers committed to responsible farming.",
+    "chefName": "Chef Lucas Beaumont",
+    "chefTitle": "Executive Chef & Owner",
+    "chefQuote": "Cooking is the art of transforming simple ingredients into extraordinary emotions.",
+    "stat1Value": "36",
+    "stat1Label": "Years of Excellence",
+    "stat2Value": "2",
+    "stat2Label": "Michelin Stars",
+    "stat3Value": "800+",
+    "stat3Label": "Wine References",
+    "learnMore": "Our philosophy"
+  },
+  "menu": {
+    "badge": "Our Creations",
+    "title": "A Menu Crafted for Excellence",
+    "subtitle": "Discover our signature dishes, crafted with the finest seasonal produce and served with absolute perfection.",
+    "viewAll": "View Full Menu",
+    "categories": {
+      "entrees": "Starters",
+      "plats": "Main Courses",
+      "desserts": "Desserts"
+    },
+    "tags": {
+      "signature": "Signature",
+      "seasonal": "Seasonal",
+      "vegetarian": "Vegetarian",
+      "seafood": "Seafood"
+    },
+    "items": {
+      "dish1Name": "Seared Foie Gras",
+      "dish1Desc": "Homemade fig chutney, toasted brioche with Guérande butter, aged port vinaigrette",
+      "dish1Price": "42",
+      "dish2Name": "Saint-Jacques Carpaccio",
+      "dish2Desc": "Bay of Seine scallops, Osciètre caviar, yuzu emulsion, Provence olive oil",
+      "dish2Price": "58",
+      "dish3Name": "Beef Fillet Rossini",
+      "dish3Desc": "Wagyu beef, seared foie gras escalope, Périgueux truffle sauce, potato gratin",
+      "dish3Price": "95",
+      "dish4Name": "Blue Brittany Lobster",
+      "dish4Desc": "Brittany lobster, shellfish bisque, confit fennel, Champagne beurre blanc",
+      "dish4Price": "110",
+      "dish5Name": "Grand Marnier Soufflé",
+      "dish5Desc": "Warm orange soufflé, Corsican mandarin sorbet, Valrhona chocolate lace",
+      "dish5Price": "28",
+      "dish6Name": "Revisited Mille-Feuille",
+      "dish6Desc": "Caramelized puff pastry, Tahitian vanilla diplomat cream, salted Breton caramel",
+      "dish6Price": "24"
+    },
+    "pageTitle": "Our Menu",
+    "pageSubtitle": "A menu evolving with the seasons, crafted daily by our brigade.",
+    "priceNote": "Prices are in euros, service included. Please inform us of any allergies.",
+    "winePairing": "Wine pairing available on request"
+  },
+  "gallery": {
+    "badge": "Our World",
+    "title": "Elegance at Every Moment",
+    "subtitle": "Immerse yourself in the unique atmosphere of La Table Dorée — from our open kitchen to our luminous dining room.",
+    "pageTitle": "Our Gallery",
+    "pageSubtitle": "Images from our gastronomic world.",
+    "categories": {
+      "all": "All",
+      "cuisine": "Cuisine",
+      "ambiance": "Ambiance",
+      "evenements": "Events"
+    }
+  },
+  "testimonials": {
+    "badge": "Trusted By Our Guests",
+    "title": "What Our Guests Say",
+    "subtitle": "Unforgettable experiences shared by our guests from around the world.",
+    "items": {
+      "t1Name": "Sophie M.",
+      "t1Role": "Loyal guest since 2015",
+      "t1Text": "A transcendent experience. Every dish is a work of art, the room radiates elegance, and the service has a rare attentiveness. La Table Dorée is without doubt the best restaurant I have ever visited.",
+      "t2Name": "James W.",
+      "t2Role": "Visitor from London",
+      "t2Text": "Words fail to describe this experience. From the moment we entered to the last bite of dessert, everything was perfection. Chef Beaumont's foie gras is simply life-changing.",
+      "t3Name": "Clara & Antoine D.",
+      "t3Role": "Wedding anniversary",
+      "t3Text": "We were celebrating our 10th wedding anniversary. La Table Dorée exceeded all our expectations. The attention to detail, the cuisine, the atmosphere... A memory we will never forget.",
+      "t4Name": "Hiroshi T.",
+      "t4Role": "Food critic, Tokyo",
+      "t4Text": "In my thirty years as a food critic, very few restaurants have left me speechless. La Table Dorée is one of them. A masterclass in French gastronomy."
+    }
+  },
+  "contact": {
+    "badge": "Find Us",
+    "title": "Share an Exceptional Moment",
+    "address": "15 Rue de la Paix",
+    "city": "75001 Paris, France",
+    "phone": "+33 1 42 33 44 55",
+    "email": "reservation@latabledoree.fr",
+    "hoursTitle": "Opening Hours",
+    "lunch": "Lunch",
+    "lunchHours": "12:00 — 2:30 PM",
+    "dinner": "Dinner",
+    "dinnerHours": "7:00 — 10:30 PM",
+    "closedDay": "Closed on Monday",
+    "reservationTitle": "Book a Table",
+    "formName": "Full name",
+    "formEmail": "Email address",
+    "formPhone": "Phone number",
+    "formDate": "Preferred date",
+    "formGuests": "Number of guests",
+    "formMessage": "Special occasion or particular request",
+    "formSubmit": "Confirm Reservation",
+    "formNote": "We will confirm availability within 24 hours.",
+    "pageTitle": "Contact & Reservation",
+    "pageSubtitle": "Book your table for an unforgettable experience."
+  },
+  "cta": {
+    "title": "Ready for an Unforgettable Experience?",
+    "subtitle": "Book now and let our exceptional gastronomy transport you to another world.",
+    "button": "Book my table",
+    "phone": "Or call us"
+  },
+  "footer": {
+    "tagline": "Exceptional French gastronomy since 1987",
+    "stars": "2 Michelin Stars",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
+    "hoursTitle": "Hours",
+    "lunchShort": "Lunch: 12:00–2:30 PM",
+    "dinnerShort": "Dinner: 7:00–10:30 PM",
+    "closedShort": "Closed Monday",
+    "legal": "Legal Notice",
+    "privacy": "Privacy Policy",
+    "copyright": "© 2024 La Table Dorée. All rights reserved.",
+    "madeBy": "Created by"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "This page doesn't exist or has been moved. Return to the homepage to continue your visit.",
+    "back": "Back to homepage"
+  },
+  "metadata": {
+    "homeTitle": "La Table Dorée — French Gastronomy · Paris",
+    "homeDescription": "Discover La Table Dorée, 2 Michelin star restaurant in the heart of Paris. Exceptional French cuisine, refined atmosphere, 800+ wine references.",
+    "menuTitle": "Menu — La Table Dorée",
+    "menuDescription": "Explore our gastronomic menu: starters, signature main courses and exceptional desserts. Seasonal produce, local sourcing.",
+    "galerieTitle": "Gallery — La Table Dorée",
+    "galerieDescription": "Immerse yourself in the visual world of La Table Dorée: open kitchen, elegant dining room, culinary creations.",
+    "contactTitle": "Contact & Reservation — La Table Dorée",
+    "contactDescription": "Book your table at La Table Dorée restaurant, 15 Rue de la Paix, Paris. Lunch and dinner Tuesday to Sunday."
+  }
+}

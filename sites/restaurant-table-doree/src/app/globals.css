@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+/* Class-based dark mode for next-themes */
+@variant dark (&:where(.dark, .dark *));
+
+/* Connect next/font CSS variables to Tailwind theme */
+@theme inline {
+  --font-display: var(--font-cormorant);
+  --font-body: var(--font-dm-sans);
+}
+
+@theme {
+  /* ─── Brand: Gold / Champagne ─── */
+  --color-gold-50: #fdf9ee;
+  --color-gold-100: #f8efca;
+  --color-gold-200: #f0d990;
+  --color-gold-300: #e6c357;
+  --color-gold-400: #d4af37;
+  --color-gold-500: #c9a84c;
+  --color-gold-600: #a8893e;
+  --color-gold-700: #866a2f;
+  --color-gold-800: #644d1f;
+  --color-gold-900: #3d2e0f;
+
+  /* ─── Cream / Warm whites ─── */
+  --color-cream-50: #fafaf7;
+  --color-cream-100: #f5f0e8;
+  --color-cream-200: #ede5d4;
+  --color-cream-300: #ddd3be;
+  --color-cream-400: #c8b99a;
+
+  /* ─── Charcoal / Darks ─── */
+  --color-charcoal-50: #f7f7f5;
+  --color-charcoal-100: #e8e8e4;
+  --color-charcoal-200: #c8c8c0;
+  --color-charcoal-300: #a0a09a;
+  --color-charcoal-400: #787870;
+  --color-charcoal-500: #555550;
+  --color-charcoal-600: #3a3a36;
+  --color-charcoal-700: #2a2a26;
+  --color-charcoal-800: #1a1a16;
+  --color-charcoal-900: #0a0a08;
+
+  /* ─── Sage green accent ─── */
+  --color-sage-100: #e8efe8;
+  --color-sage-200: #c5d5c5;
+  --color-sage-300: #9db99d;
+  --color-sage-400: #7a9e7a;
+  --color-sage-500: #6b7f6b;
+  --color-sage-600: #526052;
+
+  /* ─── Animations ─── */
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-shimmer: shimmer 2s linear infinite;
+}
+
+/* Custom keyframes */
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+/* ─── Base styles ─── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Respect prefers-reduced-motion */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* ─── Typography helpers ─── */
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+/* ─── Gold gradient text ─── */
+.text-gradient-gold {
+  background: linear-gradient(135deg, #d4af37 0%, #f0d990 50%, #c9a84c 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ─── Shimmer effect ─── */
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(212, 175, 55, 0.1) 50%,
+    transparent 100%
+  );
+  background-size: 200% auto;
+  animation: shimmer 2s linear infinite;
+}
+
+/* ─── Scrollbar ─── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #c9a84c;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d4af37;
+}
