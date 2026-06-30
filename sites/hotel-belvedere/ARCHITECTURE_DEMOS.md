@@ -9,7 +9,7 @@
 
 Ces repos font partie de l'écosystème **Forge Digitale** — une activité de création de sites web pour entreprises. Chaque démo est un site fictif ultra-soigné qui showcases les capacités techniques et design.
 
-**Repo portfolio principal :** `https://github.com/contact89/forge-digitale`
+**Repo portfolio principal :** `https://github.com/p-cornu/forge-digitale`
 **Site portfolio :** `https://forge-digitale.vercel.app`
 
 Chaque démo :
