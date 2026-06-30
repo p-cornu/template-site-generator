@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "title": "Maison Flour — Artisan Café & Pastry Shop | Paris 9th",
+    "description": "Artisan café in the heart of Paris's 9th arrondissement. Fresh morning pastries, specialty coffee and weekend brunch in a cosy atmosphere.",
+    "ogTitle": "Maison Flour — Artisan Café Paris",
+    "ogDescription": "Artisan café, homemade pastries and brunch in Paris."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "Our Café",
+    "menu": "Menu",
+    "contact": "Contact",
+    "viewMenu": "View menu",
+    "switchLang": "FR"
+  },
+  "hero": {
+    "badge": "Open since 2018",
+    "titleLine1": "The art of coffee,",
+    "titleLine2": "made with love.",
+    "subtitle": "An artisan café where every cup is an invitation to slow down. Fresh daily pastries, smiles included.",
+    "ctaPrimary": "View the menu",
+    "ctaSecondary": "Our story",
+    "scrollHint": "Scroll"
+  },
+  "about": {
+    "badge": "Our story",
+    "title": "Born from a passion for the authentic",
+    "paragraph1": "Maison Flour was born in 2018 from Léa and Thomas's passion for quality ingredients. Nestled in Paris's 9th arrondissement, we created a warm refuge where time slows down and every detail matters.",
+    "paragraph2": "Every morning, our bakers craft fresh pastries using locally sourced products. Our coffee is carefully selected from small independent roasters who share our philosophy.",
+    "value1Label": "Artisan",
+    "value1Desc": "Everything made fresh each morning",
+    "value2Label": "Local",
+    "value2Desc": "Producers within 100km",
+    "value3Label": "Welcoming",
+    "value3Desc": "A space that feels like home",
+    "imageAlt": "Léa and Thomas, founders of Maison Flour"
+  },
+  "menuPreview": {
+    "badge": "Our specialties",
+    "title": "Fresh from the oven this morning",
+    "subtitle": "A selection of today's pieces, made with love and carefully chosen ingredients.",
+    "cta": "See the full menu",
+    "cappuccino": {
+      "name": "House Cappuccino",
+      "desc": "Intense espresso, silky milk foam, seasonal cocoa dusting"
+    },
+    "kouignAmann": {
+      "name": "Kouign-amann",
+      "desc": "Breton butter, melting caramel, crispy laminated pastry"
+    },
+    "brunchFlour": {
+      "name": "Flour Brunch",
+      "desc": "Scrambled eggs, toast, seasonal fruits, drink of choice"
+    }
+  },
+  "gallery": {
+    "badge": "The atmosphere",
+    "title": "Welcome to our place",
+    "subtitle": "A space designed for the pleasure of the senses — golden light, warm wood, coffee aromas.",
+    "prev": "Previous image",
+    "next": "Next image"
+  },
+  "testimonials": {
+    "badge": "Trusted by our community",
+    "title": "What they say about us",
+    "t1": "Best coffee in the 9th, without hesitation. The atmosphere is magical in the morning — you never want to leave.",
+    "t2": "The croissants are an institution. And the service is always cheerful — a genuine moment of joy.",
+    "t3": "Our Sunday brunch spot for 3 years now. If it ain't broke, don't fix it!",
+    "starsLabel": "5 stars out of 5"
+  },
+  "contact": {
+    "badge": "Find us",
+    "title": "Come visit us",
+    "addressLabel": "Address",
+    "hoursLabel": "Opening hours",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "mapAlt": "Map to Maison Flour, 12 rue des Martyrs Paris 9th",
+    "mapPlaceholder": "View on Google Maps"
+  },
+  "footer": {
+    "tagline": "Artisan café · Paris 9th",
+    "nav": "Navigation",
+    "followUs": "Follow us",
+    "copyright": "© 2024 Maison Flour. All rights reserved.",
+    "instagram": "Instagram",
+    "facebook": "Facebook"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "subtitle": "This page seems to have gotten lost between tables…",
+    "cta": "Back to home"
+  },
+  "carte": {
+    "meta": {
+      "title": "Menu — Maison Flour | Artisan Café Paris 9th",
+      "description": "Discover our full menu: coffees, teas, homemade pastries and weekend brunch."
+    },
+    "badge": "Our Menu",
+    "title": "Everything is homemade",
+    "subtitle": "Prepared every morning with love, local ingredients and plenty of butter.",
+    "hot": "Hot Drinks",
+    "cold": "Cold Drinks",
+    "pastry": "Pastries",
+    "brunch": "Brunch",
+    "brunchNote": "Served on weekends from 10am to 2pm",
+    "espresso": { "name": "Espresso", "desc": "An intense shot, the foundation of everything" },
+    "allonge": { "name": "Lungo", "desc": "Espresso extended with hot water" },
+    "cappuccino": { "name": "House Cappuccino", "desc": "Espresso, silky milk foam, cocoa" },
+    "latte": { "name": "Café Latte", "desc": "Gentle espresso immersed in warm milk" },
+    "flatWhite": { "name": "Flat White", "desc": "Double ristretto, velvety micro-foam" },
+    "matchaLatte": { "name": "Matcha Latte", "desc": "Ceremonial matcha, warm oat milk" },
+    "chaiLatte": { "name": "Chai Latte", "desc": "Indian spice blend, warm milk" },
+    "chocolatChaud": { "name": "Hot Chocolate", "desc": "70% dark chocolate, whole milk, cream" },
+    "the": { "name": "World Tea", "desc": "Selection of origin teas, 4-min infusion" },
+    "coldBrew": { "name": "Cold Brew", "desc": "24h cold-brew, smooth and without bitterness" },
+    "icedLatte": { "name": "Iced Latte", "desc": "Iced latte over ice, light and refreshing" },
+    "smoothie": { "name": "Market Smoothie", "desc": "Fresh seasonal fruit, no added sugar" },
+    "limonade": { "name": "House Lemonade", "desc": "Pressed lemons, fresh mint, sparkling" },
+    "eau": { "name": "Water", "desc": "Still or sparkling, carafe available" },
+    "croissant": { "name": "Butter Croissant", "desc": "AOC lamination, Charentes butter" },
+    "painChocolat": { "name": "Pain au Chocolat", "desc": "Two Valrhona bars, house laminated pastry" },
+    "kouignAmann": { "name": "Kouign-amann", "desc": "Breton butter, caramel, crispy pastry" },
+    "financier": { "name": "Almond Financier", "desc": "Brown butter, almonds, moist texture" },
+    "madeleine": { "name": "House Madeleine", "desc": "Lemon zest, flower honey, perfect hump" },
+    "tarteJour": { "name": "Tart of the Day", "desc": "According to the season and chef's mood" },
+    "carrotCake": { "name": "Carrot Cake", "desc": "Grated carrots, spices, cream cheese frosting" },
+    "bananaBread": { "name": "Banana Bread", "desc": "Ripe bananas, pecan nuts, dairy-free" },
+    "cookie": { "name": "Dark Chocolate Cookie", "desc": "70% chocolate, brown butter, Guérande salt" },
+    "scone": { "name": "Blueberry Scone", "desc": "Fresh blueberries, lemon zest, clotted cream" },
+    "brunchFlour": { "name": "Flour Brunch", "desc": "Scrambled eggs, toast, fruit salad, drink" },
+    "avocadoToast": { "name": "Avocado Toast", "desc": "Country bread, avocado, poached egg, seeds" },
+    "bowl": { "name": "Market Bowl", "desc": "Grains, fresh fruit, house granola, oat milk" },
+    "pancakes": { "name": "House Pancakes", "desc": "Light batter, maple syrup, red berries" },
+    "toastBeurre": { "name": "Toast with Butter & Jam", "desc": "Toasted house bread, artisan jams" },
+    "assietteFruits": { "name": "Fresh Fruit Plate", "desc": "Selection of fresh seasonal fruit" }
+  }
+}
