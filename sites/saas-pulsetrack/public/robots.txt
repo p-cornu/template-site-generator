@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://demo-saas-pulsetrack.vercel.app/sitemap.xml
