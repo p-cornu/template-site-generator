@@ -1,0 +1,188 @@
+{
+  "nav": {
+    "chambres": "Rooms",
+    "restaurant": "Restaurant",
+    "spa": "Spa & Wellness",
+    "galerie": "Gallery",
+    "contact": "Contact",
+    "reserver": "Book Now",
+    "menu": "Open menu",
+    "fermer": "Close menu",
+    "darkMode": "Toggle theme",
+    "language": "Change language"
+  },
+  "hero": {
+    "tagline": "Since 1923",
+    "title": "The Mediterranean\nHorizon",
+    "subtitle": "Experience excellence on the French Riviera. Breathtaking sea views, outstanding gastronomy and the Provençal art de vivre in the heart of Èze-sur-Mer.",
+    "ctaReserver": "Book your stay",
+    "ctaDecouvrir": "Discover the hotel"
+  },
+  "about": {
+    "tagline": "Our Story",
+    "title": "The Art of Mediterranean Hospitality",
+    "description": "Since 1923, the Hôtel Belvédère has embodied the French art of living on the Côte d'Azur. Perched above the turquoise waters of the Mediterranean, our 48-room property blends the charm of Belle Époque architecture with the refinement of contemporary luxury.",
+    "description2": "Every detail — from the Carrara marble in our bathrooms to the art collections curated by our specialists — reflects our unwavering commitment to excellence and Provençal authenticity.",
+    "since": "Established in 1923",
+    "rooms": "48 rooms & suites",
+    "stars": "5-star hotel",
+    "awards": "Relais & Châteaux"
+  },
+  "rooms": {
+    "tagline": "Our Accommodations",
+    "title": "Rooms & Suites",
+    "subtitle": "Each room is an invitation to travel, where Provençal elegance meets exceptional comfort with views over the Mediterranean.",
+    "ctaView": "View details",
+    "ctaBook": "Book",
+    "surface": "m²",
+    "capacity": "guests",
+    "perNight": "/ night",
+    "viewDetails": "Discover",
+    "from": "From",
+    "features": "Amenities",
+    "suiteTitle": "Panoramic Suite",
+    "suiteDesc": "Our most exclusive suite offers a 180° panoramic view of the Mediterranean, a private terrace and an outdoor jacuzzi.",
+    "deluxeTitle": "Sea View Room",
+    "deluxeDesc": "Elegant room with balcony and direct sea view, decorated in a refined contemporary Provençal style.",
+    "classiqueTitle": "Classic Room",
+    "classiqueDesc": "The charm of the Belle Époque in an intimate and comfortable setting, with all the amenities for a perfect stay."
+  },
+  "restaurant": {
+    "tagline": "Gastronomy",
+    "title": "La Terrasse du Belvédère",
+    "subtitle": "Exceptional Mediterranean cuisine with breathtaking views over the French Riviera",
+    "description": "Under the direction of Chef Éric Morel, La Terrasse celebrates the authentic flavours of the Mediterranean. Local produce, elevated classic techniques, and a wine list carefully selected by our sommelier — every meal is a unique sensory experience.",
+    "hours": "Open daily · Lunch 12pm-2:30pm · Dinner 7pm-10:30pm",
+    "viewMenu": "View menu",
+    "reserve": "Book a table",
+    "starters": "Starters",
+    "mains": "Main courses",
+    "desserts": "Desserts",
+    "wine": "Wine cellar",
+    "wineDesc": "Over 400 references carefully selected by our sommelier"
+  },
+  "spa": {
+    "tagline": "Wellness",
+    "title": "Spa & Serenity",
+    "subtitle": "Treat yourself to a haven of pure serenity in the heart of the French Riviera",
+    "description": "Our 800m² spa offers a comprehensive range of treatments inspired by Mediterranean traditions. Heated indoor pool, hammam, sauna, fitness room — let yourself be carried by the serenity of the sea.",
+    "bookSpa": "Book a treatment",
+    "discover": "Discover the spa",
+    "duration": "min",
+    "from": "From",
+    "services": {
+      "massage-signature": {
+        "name": "Belvédère Signature Massage",
+        "description": "Our exclusive massage combining Swedish and Mediterranean techniques for deep relaxation"
+      },
+      "soin-visage": {
+        "name": "Luminosity Facial",
+        "description": "Anti-ageing protocol with marine actives, intense hydration and immediate radiance guaranteed"
+      },
+      "hammam-gommage": {
+        "name": "Hammam & Scrub Ritual",
+        "description": "Complete purification with beldi soap, kessa scrub and white clay wrap"
+      },
+      "rituel-mediterraneen": {
+        "name": "Grand Mediterranean Ritual",
+        "description": "The ultimate experience: floral bath, four-hand massage, facial and tea ceremony"
+      }
+    }
+  },
+  "gallery": {
+    "tagline": "In Pictures",
+    "title": "Belvédère Gallery",
+    "subtitle": "Let yourself be seduced by the beauty of our property and the splendour of the French Riviera",
+    "all": "All",
+    "rooms": "Rooms",
+    "restaurant": "Restaurant",
+    "spa": "Spa",
+    "exterior": "Exterior",
+    "pool": "Pool"
+  },
+  "testimonials": {
+    "tagline": "Guest Reviews",
+    "title": "What Our Guests Say"
+  },
+  "location": {
+    "tagline": "Find Us",
+    "title": "In the Heart of the French Riviera",
+    "address": "12 Avenue de la Mer, Èze-sur-Mer, 06360 Alpes-Maritimes",
+    "phone": "+33 (0)4 93 01 23 45",
+    "email": "contact@hotel-belvedere-eze.fr",
+    "directions": "Get directions",
+    "howToReach": "How to reach us",
+    "bycar": "By car: 15 min from Nice, 30 min from Monaco",
+    "bytrain": "By train: Èze-sur-Mer station 2 km away",
+    "byplane": "By plane: Nice Côte d'Azur Airport 20 km away",
+    "shuttle": "Private shuttle available on request"
+  },
+  "cta": {
+    "tagline": "Reservations",
+    "title": "Your Exceptional Stay Begins Here",
+    "subtitle": "Book directly on our website and enjoy our best guaranteed rates, personalised welcome and exclusive benefits.",
+    "button": "Book your stay",
+    "advantage1": "Best rate guaranteed",
+    "advantage2": "Flexible cancellation",
+    "advantage3": "Breakfast included"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Our team is at your disposal to make your stay unforgettable",
+    "name": "Full name",
+    "email": "Email address",
+    "phone": "Phone number",
+    "dates": "Desired dates",
+    "message": "Your message",
+    "messagePlaceholder": "How can we help you?",
+    "send": "Send message",
+    "success": "Your message has been sent. We will reply as soon as possible.",
+    "info": "Information",
+    "hours": "Reception open 24/7",
+    "concierge": "Concierge service available"
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "This page got lost somewhere on the Mediterranean…",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "back": "Back to home"
+  },
+  "footer": {
+    "description": "5-star luxury hotel established since 1923 on the French Riviera. 48 rooms and suites with sea views, gourmet restaurant, spa and infinity pool.",
+    "links": "Navigation",
+    "legal": "Legal notice",
+    "privacy": "Privacy policy",
+    "copyright": "© 2025 Hôtel Belvédère · Èze-sur-Mer · All rights reserved",
+    "demo": "Demo site — Forge Digitale",
+    "social": "Follow us",
+    "newsletter": "Newsletter",
+    "newsletterPlaceholder": "Your email address",
+    "subscribe": "Subscribe"
+  },
+  "metadata": {
+    "home": {
+      "title": "Hôtel Belvédère — Luxury & Charm on the French Riviera",
+      "description": "Experience exceptional hospitality on the French Riviera. Sea views, Mediterranean gastronomy, spa & pool. 5-star hotel since 1923."
+    },
+    "chambres": {
+      "title": "Rooms & Suites",
+      "description": "Discover our 48 rooms and suites with views over the Mediterranean. From Provençal charm to the excellence of contemporary luxury."
+    },
+    "restaurant": {
+      "title": "La Terrasse — Gourmet Restaurant",
+      "description": "Savour exceptional Mediterranean cuisine with breathtaking views over the French Riviera. Chef Éric Morel, local produce, selected wines."
+    },
+    "spa": {
+      "title": "Spa & Wellness",
+      "description": "Our 800m² spa invites you to a haven of serenity. Massages, facials, hammam, heated indoor pool."
+    },
+    "galerie": {
+      "title": "Photo Gallery",
+      "description": "Discover in pictures the beauty of the Hôtel Belvédère, its rooms, La Terrasse restaurant, spa and views over the Mediterranean."
+    },
+    "contact": {
+      "title": "Contact & Reservations",
+      "description": "Contact the Hôtel Belvédère to book your stay or get information. Our team is at your disposal 24/7."
+    }
+  }
+}
